@@ -1,0 +1,5 @@
+2018-01-18 15:11:46,758 http-apr-8080-exec-2 anonymous 911x2x1 - 172.21.0.1 /secure/SetupMode!default.jspa HttpSession created [1jew0jn]
+2018-01-18 15:19:24,098 http-bio-8443-exec-4      HttpSession created [118xn0u]
+2018-01-18 15:19:41,728 http-bio-8443-exec-9      HttpSession created [2cjev1]
+2018-01-18 15:20:29,364 localhost-startStop-2      HttpSession [2cjev1] destroyed for 'anonymous'
+2018-01-18 15:20:29,365 localhost-startStop-2      HttpSession [118xn0u] destroyed for 'anonymous'
