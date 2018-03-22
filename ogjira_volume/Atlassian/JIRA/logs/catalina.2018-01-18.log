@@ -1,0 +1,36 @@
+18-Jan-2018 15:10:22.795 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.32
+18-Jan-2018 15:10:22.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 2 2016 19:34:53 UTC
+18-Jan-2018 15:10:22.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.32.0
+18-Jan-2018 15:10:22.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jan-2018 15:10:22.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.60-linuxkit-aufs
+18-Jan-2018 15:10:22.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jan-2018 15:10:22.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+18-Jan-2018 15:10:22.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-8u131-b11-2-b11
+18-Jan-2018 15:10:22.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Jan-2018 15:10:22.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/atlassian/jira
+18-Jan-2018 15:10:22.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/atlassian/jira
+18-Jan-2018 15:10:22.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/atlassian/jira/conf/logging.properties
+18-Jan-2018 15:10:22.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jan-2018 15:10:22.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms384m
+18-Jan-2018 15:10:22.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx768m
+18-Jan-2018 15:10:22.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+18-Jan-2018 15:10:22.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Datlassian.standalone=JIRA
+18-Jan-2018 15:10:22.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.jasper.runtime.BodyContentImpl.LIMIT_BUFFER=true
+18-Jan-2018 15:10:22.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dmail.mime.decodeparameters=true
+18-Jan-2018 15:10:22.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.dom4j.factory=com.atlassian.core.xml.InterningDocumentFactory
+18-Jan-2018 15:10:22.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintGCDateStamps
+18-Jan-2018 15:10:22.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:-OmitStackTraceInFastThrow
+18-Jan-2018 15:10:22.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djira.home=/var/atlassian/jira
+18-Jan-2018 15:10:22.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/opt/atlassian/jira/endorsed
+18-Jan-2018 15:10:22.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/atlassian/jira
+18-Jan-2018 15:10:22.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/atlassian/jira
+18-Jan-2018 15:10:22.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/atlassian/jira/temp
+18-Jan-2018 15:10:22.879 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.12 using APR version 1.5.2.
+18-Jan-2018 15:10:22.880 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+18-Jan-2018 15:10:22.923 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2l  25 May 2017)
+18-Jan-2018 15:10:23.282 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+18-Jan-2018 15:10:23.307 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1963 ms
+18-Jan-2018 15:10:23.337 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Jan-2018 15:10:23.337 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.32
+18-Jan-2018 15:10:50.840 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+18-Jan-2018 15:10:50.976 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 27663 ms
