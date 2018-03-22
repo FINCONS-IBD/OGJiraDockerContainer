@@ -1,0 +1,76 @@
+Jan 18, 2018 3:11:27 PM com.ibm.hrl.proton.server.executor.ProtonExecutor main
+INFO: init: initializing metadata and all the system singletons
+Jan 18, 2018 3:11:28 PM ContextMetadataFacade initializeEventRoles
+FINER: ENTRY
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.runtime.metadata.ContextMetadataFacade initializeEventRoles
+FINEST: initializeEventRoles: analyzing contextalways
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.runtime.metadata.ContextMetadataFacade checkEventRoles
+FINEST: checkEventRoles: The context always is of type ITemporalContextType, checking event initiators/terminators...
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.runtime.metadata.ContextMetadataFacade checkEventRoles
+FINEST: initializeEventRoles: Context initiators: []
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.runtime.metadata.ContextMetadataFacade checkEventRoles
+FINEST: initializeEventRoles: Context terminators: []
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.runtime.metadata.ContextMetadataFacade initializeEventRoles
+FINEST: initializeEventRoles: analyzing contextAlways
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.runtime.metadata.ContextMetadataFacade checkEventRoles
+FINEST: checkEventRoles: The context Always is of type ITemporalContextType, checking event initiators/terminators...
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.runtime.metadata.ContextMetadataFacade checkEventRoles
+FINEST: initializeEventRoles: Context initiators: []
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.runtime.metadata.ContextMetadataFacade checkEventRoles
+FINEST: initializeEventRoles: Context terminators: []
+Jan 18, 2018 3:11:28 PM ContextMetadataFacade initializeEventRoles
+FINER: RETURN
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.server.executor.ProtonExecutor main
+INFO: init: done initializing metadata, returned the following exceptions: 
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.epaManager.BaseEPAManagerFacade <init>
+FINE: EPAManagerFacade: creating the internal agent list from agent definitions
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.epaManager.BaseEPAManagerFacade <init>
+FINE: EPAManagerFacade: adding agent : OpenChangeRequest to agent definitions
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.epaManager.BaseEPAManagerFacade <init>
+FINE: EPAManagerFacade: adding agent : AlertEPA to agent definitions
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.context.facade.ContextServiceFacade initializeCompositeContextInstances
+FINE: initializeCompositeContextInstances: getting context definitions from context metadata facade...
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.context.facade.ContextServiceFacade initializeCompositeContextInstances
+FINE: initializeCompositeContextInstances:  context definitions from context metadata facade: {always=[com.ibm.hrl.proton.metadata.epa.EventProcessingAgentType@2471cca7, com.ibm.hrl.proton.metadata.epa.EventProcessingAgentType@5fe5c6f]}
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.context.facade.ContextServiceFacade initializeCompositeContextInstances
+FINE: initializeCompositeContextInstances: the context state manager is: com.ibm.hrl.proton.context.state.ContextStateManager@6979e8cb
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.context.facade.ContextServiceFacade initializeCompositeContextInstances
+FINE: initializeCompositeContextInstances: creating new context instance for contextalways and agentcom.ibm.hrl.proton.metadata.epa.EventProcessingAgentType@2471cca7
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.context.facade.ContextServiceFacade initializeCompositeContextInstances
+FINE: initializeCompositeContextInstances: created new context instance for contextalways and agentcom.ibm.hrl.proton.metadata.epa.EventProcessingAgentType@2471cca7 and added to state
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.context.facade.ContextServiceFacade initializeCompositeContextInstances
+FINE: initializeCompositeContextInstances: the contextalways has system startup initiator: creating initiation notification: com.ibm.hrl.proton.context.management.ContextInitiationNotification@64c64813
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.context.facade.ContextServiceFacade processEventInstance
+FINE: processEventInstance: com.ibm.hrl.proton.context.management.ContextInitiationNotification@64c64813 for context: always agent name: OpenChangeRequest
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.context.facade.ContextServiceFacade processEventInstance
+FINE: processEventInstance: getting context instnace for context: always agent name: OpenChangeRequest
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.context.facade.ContextServiceFacade processEventInstance
+FINE: processEventInstance: the role of the event is initiator, initiating partitions...
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.context.facade.ContextServiceFacade initializeCompositeContextInstances
+FINE: initializeCompositeContextInstances: submitted context initiation notification for context: always, com.ibm.hrl.proton.context.management.ContextInitiationNotification@64c64813
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.context.facade.ContextServiceFacade initializeCompositeContextInstances
+FINE: initializeCompositeContextInstances: creating new context instance for contextalways and agentcom.ibm.hrl.proton.metadata.epa.EventProcessingAgentType@5fe5c6f
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.context.facade.ContextServiceFacade initializeCompositeContextInstances
+FINE: initializeCompositeContextInstances: created new context instance for contextalways and agentcom.ibm.hrl.proton.metadata.epa.EventProcessingAgentType@5fe5c6f and added to state
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.context.facade.ContextServiceFacade initializeCompositeContextInstances
+FINE: initializeCompositeContextInstances: the contextalways has system startup initiator: creating initiation notification: com.ibm.hrl.proton.context.management.ContextInitiationNotification@7006c658
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.context.facade.ContextServiceFacade processEventInstance
+FINE: processEventInstance: com.ibm.hrl.proton.context.management.ContextInitiationNotification@7006c658 for context: always agent name: AlertEPA
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.context.facade.ContextServiceFacade processEventInstance
+FINE: processEventInstance: getting context instnace for context: always agent name: AlertEPA
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.context.facade.ContextServiceFacade processEventInstance
+FINE: processEventInstance: the role of the event is initiator, initiating partitions...
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.context.facade.ContextServiceFacade initializeCompositeContextInstances
+FINE: initializeCompositeContextInstances: submitted context initiation notification for context: always, com.ibm.hrl.proton.context.management.ContextInitiationNotification@7006c658
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.context.facade.ContextServiceFacade initializeCompositeContextInstances
+FINE: initializeCompositeContextInstance: exit
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.server.executor.ProtonExecutor main
+INFO: init: done initializing singletons , starting the servers...
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.server.adapter.OutputServer run
+INFO: Proton output server started, listening on output port: 33003
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.server.adapter.OutputServer run
+FINE: Received a new connection from (127.0.0.1): localhost
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.server.adapter.InputServer run
+INFO: Proton server Started, listening on port: 30003
+Jan 18, 2018 3:11:28 PM com.ibm.hrl.proton.server.adapter.InputServer run
+FINE: Received a new connection from (127.0.0.1): localhost

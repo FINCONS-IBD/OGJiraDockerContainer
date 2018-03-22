@@ -1,0 +1,1 @@
+java -Djava.util.logging.config.file="./config/logging.properties" -Dcom.fincons.configFile="./config/config.properties" -Dcom.fincons.protonConfig="./config/Proton.properties" -jar IBMProtonApp.jar
