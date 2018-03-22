@@ -1,0 +1,24 @@
+bzdb:
+    build: bzdb
+    container_name: dbzilla
+    expose:
+        - "3606"
+    volumes:
+        - /var/lib/mysql
+bzweb:
+    build: bzweb
+    container_name: webzilla
+    links:
+        - bzdb:bzdb
+    ports:
+        - "80:80"
+tomcat:
+    image: bitnami/tomcat:8.0 
+    ports:
+        - 8082:8080
+        - 8443:8443
+    container_name: tomcat-ogzilla
+    volumes:
+        - ./tomcat:/bitnami/tomcat
+        - ./tomcat/logs:/opt/bitnami/tomcat/logs
+        - ./java_security:/opt/bitnami/java/lib/security

@@ -1,0 +1,233 @@
+19-Jan-2018 08:33:20.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.48
+19-Jan-2018 08:33:20.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 30 2017 16:26:50 UTC
+19-Jan-2018 08:33:20.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.48.0
+19-Jan-2018 08:33:20.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Jan-2018 08:33:20.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.60-linuxkit-aufs
+19-Jan-2018 08:33:20.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Jan-2018 08:33:20.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/bitnami/java
+19-Jan-2018 08:33:20.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+19-Jan-2018 08:33:20.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Jan-2018 08:33:20.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/bitnami/tomcat
+19-Jan-2018 08:33:20.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/bitnami/tomcat
+19-Jan-2018 08:33:20.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/bitnami/tomcat/conf/logging.properties
+19-Jan-2018 08:33:20.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jan-2018 08:33:20.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+19-Jan-2018 08:33:20.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+19-Jan-2018 08:33:20.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Jan-2018 08:33:20.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jan-2018 08:33:20.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jan-2018 08:33:20.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jan-2018 08:33:20.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/bitnami/tomcat
+19-Jan-2018 08:33:20.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/bitnami/tomcat
+19-Jan-2018 08:33:20.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/bitnami/tomcat/temp
+19-Jan-2018 08:33:20.277 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+19-Jan-2018 08:33:20.651 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jan-2018 08:33:20.681 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Jan-2018 08:33:20.686 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Jan-2018 08:33:20.689 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Jan-2018 08:33:20.691 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1140 ms
+19-Jan-2018 08:33:20.750 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+19-Jan-2018 08:33:20.750 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.48
+19-Jan-2018 08:33:20.762 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/examples
+19-Jan-2018 08:33:21.428 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/examples has finished in 658 ms
+19-Jan-2018 08:33:21.455 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/manager
+19-Jan-2018 08:33:21.523 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/manager has finished in 67 ms
+19-Jan-2018 08:33:21.525 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/host-manager
+19-Jan-2018 08:33:21.574 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/host-manager has finished in 50 ms
+19-Jan-2018 08:33:21.575 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/ROOT
+19-Jan-2018 08:33:21.610 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/ROOT has finished in 35 ms
+19-Jan-2018 08:33:21.616 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/docs
+19-Jan-2018 08:33:21.669 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/docs has finished in 53 ms
+19-Jan-2018 08:33:21.673 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Jan-2018 08:33:21.783 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Jan-2018 08:33:21.786 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1095 ms
+19-Jan-2018 08:45:55.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.48
+19-Jan-2018 08:45:55.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 30 2017 16:26:50 UTC
+19-Jan-2018 08:45:55.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.48.0
+19-Jan-2018 08:45:55.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Jan-2018 08:45:55.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.60-linuxkit-aufs
+19-Jan-2018 08:45:55.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Jan-2018 08:45:55.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/bitnami/java
+19-Jan-2018 08:45:55.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+19-Jan-2018 08:45:55.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Jan-2018 08:45:55.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/bitnami/tomcat
+19-Jan-2018 08:45:55.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/bitnami/tomcat
+19-Jan-2018 08:45:55.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/bitnami/tomcat/conf/logging.properties
+19-Jan-2018 08:45:55.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jan-2018 08:45:55.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+19-Jan-2018 08:45:55.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+19-Jan-2018 08:45:55.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Jan-2018 08:45:55.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jan-2018 08:45:55.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jan-2018 08:45:55.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jan-2018 08:45:55.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/bitnami/tomcat
+19-Jan-2018 08:45:55.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/bitnami/tomcat
+19-Jan-2018 08:45:55.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/bitnami/tomcat/temp
+19-Jan-2018 08:45:55.549 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+19-Jan-2018 08:45:55.671 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jan-2018 08:45:55.686 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Jan-2018 08:45:55.688 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Jan-2018 08:45:55.689 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Jan-2018 08:45:55.690 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 538 ms
+19-Jan-2018 08:45:55.719 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+19-Jan-2018 08:45:55.719 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.48
+19-Jan-2018 08:45:55.748 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/docs
+19-Jan-2018 08:45:56.378 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/docs has finished in 629 ms
+19-Jan-2018 08:45:56.378 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/examples
+19-Jan-2018 08:45:58.829 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/examples has finished in 2,451 ms
+19-Jan-2018 08:45:58.829 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/host-manager
+19-Jan-2018 08:45:58.975 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/host-manager has finished in 145 ms
+19-Jan-2018 08:45:58.976 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/manager
+19-Jan-2018 08:45:59.104 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/manager has finished in 129 ms
+19-Jan-2018 08:45:59.107 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/ROOT
+19-Jan-2018 08:45:59.187 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/ROOT has finished in 80 ms
+19-Jan-2018 08:45:59.199 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Jan-2018 08:45:59.251 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Jan-2018 08:45:59.257 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3567 ms
+19-Jan-2018 08:53:35.237 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Jan-2018 08:53:35.238 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Jan-2018 08:53:35.251 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Jan-2018 08:53:35.252 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+19-Jan-2018 08:53:35.355 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Jan-2018 08:53:35.358 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Jan-2018 08:53:35.364 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Jan-2018 08:53:35.365 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Jan-2018 08:54:16.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.48
+19-Jan-2018 08:54:16.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 30 2017 16:26:50 UTC
+19-Jan-2018 08:54:16.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.48.0
+19-Jan-2018 08:54:16.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Jan-2018 08:54:16.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.60-linuxkit-aufs
+19-Jan-2018 08:54:16.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Jan-2018 08:54:16.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/bitnami/java
+19-Jan-2018 08:54:16.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+19-Jan-2018 08:54:16.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Jan-2018 08:54:16.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/bitnami/tomcat
+19-Jan-2018 08:54:16.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/bitnami/tomcat
+19-Jan-2018 08:54:16.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/bitnami/tomcat/conf/logging.properties
+19-Jan-2018 08:54:16.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jan-2018 08:54:16.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+19-Jan-2018 08:54:16.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+19-Jan-2018 08:54:16.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Jan-2018 08:54:16.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jan-2018 08:54:16.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jan-2018 08:54:16.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jan-2018 08:54:16.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/bitnami/tomcat
+19-Jan-2018 08:54:16.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/bitnami/tomcat
+19-Jan-2018 08:54:16.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/bitnami/tomcat/temp
+19-Jan-2018 08:54:16.715 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+19-Jan-2018 08:54:16.892 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jan-2018 08:54:16.909 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Jan-2018 08:54:16.912 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Jan-2018 08:54:16.914 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Jan-2018 08:54:16.914 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 662 ms
+19-Jan-2018 08:54:16.946 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+19-Jan-2018 08:54:16.946 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.48
+19-Jan-2018 08:54:16.970 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/docs
+19-Jan-2018 08:54:17.452 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/docs has finished in 481 ms
+19-Jan-2018 08:54:17.456 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/examples
+19-Jan-2018 08:54:18.186 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/examples has finished in 730 ms
+19-Jan-2018 08:54:18.188 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/host-manager
+19-Jan-2018 08:54:18.266 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/host-manager has finished in 78 ms
+19-Jan-2018 08:54:18.266 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/manager
+19-Jan-2018 08:54:18.372 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/manager has finished in 106 ms
+19-Jan-2018 08:54:18.372 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/ROOT
+19-Jan-2018 08:54:18.434 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/ROOT has finished in 62 ms
+19-Jan-2018 08:54:18.438 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Jan-2018 08:54:18.483 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Jan-2018 08:54:18.487 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1572 ms
+19-Jan-2018 08:55:06.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.48
+19-Jan-2018 08:55:06.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 30 2017 16:26:50 UTC
+19-Jan-2018 08:55:06.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.48.0
+19-Jan-2018 08:55:06.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Jan-2018 08:55:06.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.60-linuxkit-aufs
+19-Jan-2018 08:55:06.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Jan-2018 08:55:06.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/bitnami/java
+19-Jan-2018 08:55:06.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+19-Jan-2018 08:55:06.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Jan-2018 08:55:06.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/bitnami/tomcat
+19-Jan-2018 08:55:06.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/bitnami/tomcat
+19-Jan-2018 08:55:06.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/bitnami/tomcat/conf/logging.properties
+19-Jan-2018 08:55:06.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jan-2018 08:55:06.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+19-Jan-2018 08:55:06.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+19-Jan-2018 08:55:06.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Jan-2018 08:55:06.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jan-2018 08:55:06.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jan-2018 08:55:06.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jan-2018 08:55:06.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/bitnami/tomcat
+19-Jan-2018 08:55:06.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/bitnami/tomcat
+19-Jan-2018 08:55:06.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/bitnami/tomcat/temp
+19-Jan-2018 08:55:06.913 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+19-Jan-2018 08:55:07.208 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jan-2018 08:55:07.232 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Jan-2018 08:55:07.236 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Jan-2018 08:55:07.238 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Jan-2018 08:55:07.239 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 957 ms
+19-Jan-2018 08:55:07.291 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+19-Jan-2018 08:55:07.292 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.48
+19-Jan-2018 08:55:07.320 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/docs
+19-Jan-2018 08:55:07.814 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/docs has finished in 493 ms
+19-Jan-2018 08:55:07.815 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/examples
+19-Jan-2018 08:55:08.500 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/examples has finished in 684 ms
+19-Jan-2018 08:55:08.502 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/host-manager
+19-Jan-2018 08:55:08.568 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/host-manager has finished in 66 ms
+19-Jan-2018 08:55:08.569 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/manager
+19-Jan-2018 08:55:08.647 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/manager has finished in 78 ms
+19-Jan-2018 08:55:08.647 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/ROOT
+19-Jan-2018 08:55:08.694 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/ROOT has finished in 47 ms
+19-Jan-2018 08:55:08.698 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Jan-2018 08:55:08.761 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Jan-2018 08:55:08.770 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1530 ms
+19-Jan-2018 08:56:45.510 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Jan-2018 08:56:45.564 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Jan-2018 08:56:45.615 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+19-Jan-2018 08:56:45.704 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Jan-2018 08:56:45.706 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Jan-2018 08:56:45.707 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Jan-2018 08:56:45.707 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Jan-2018 08:57:21.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.48
+19-Jan-2018 08:57:21.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 30 2017 16:26:50 UTC
+19-Jan-2018 08:57:21.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.48.0
+19-Jan-2018 08:57:21.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Jan-2018 08:57:21.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.60-linuxkit-aufs
+19-Jan-2018 08:57:21.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Jan-2018 08:57:21.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/bitnami/java
+19-Jan-2018 08:57:21.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+19-Jan-2018 08:57:21.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Jan-2018 08:57:21.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/bitnami/tomcat
+19-Jan-2018 08:57:21.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/bitnami/tomcat
+19-Jan-2018 08:57:21.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/bitnami/tomcat/conf/logging.properties
+19-Jan-2018 08:57:21.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jan-2018 08:57:21.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+19-Jan-2018 08:57:21.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+19-Jan-2018 08:57:21.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+19-Jan-2018 08:57:21.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jan-2018 08:57:21.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jan-2018 08:57:21.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jan-2018 08:57:21.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/bitnami/tomcat
+19-Jan-2018 08:57:21.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/bitnami/tomcat
+19-Jan-2018 08:57:21.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/bitnami/tomcat/temp
+19-Jan-2018 08:57:21.556 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+19-Jan-2018 08:57:21.963 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jan-2018 08:57:22.024 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Jan-2018 08:57:22.027 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Jan-2018 08:57:22.030 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Jan-2018 08:57:22.034 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1577 ms
+19-Jan-2018 08:57:22.146 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+19-Jan-2018 08:57:22.147 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.48
+19-Jan-2018 08:57:22.220 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/oslc4bugzilla.war
+19-Jan-2018 08:57:33.357 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jan-2018 08:57:39.326 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/oslc4bugzilla.war has finished in 17,103 ms
+19-Jan-2018 08:57:39.332 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/docs
+19-Jan-2018 08:57:39.401 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/docs has finished in 69 ms
+19-Jan-2018 08:57:39.402 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/examples
+19-Jan-2018 08:57:39.976 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/examples has finished in 574 ms
+19-Jan-2018 08:57:39.976 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/host-manager
+19-Jan-2018 08:57:40.037 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/host-manager has finished in 61 ms
+19-Jan-2018 08:57:40.042 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/manager
+19-Jan-2018 08:57:40.111 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/manager has finished in 69 ms
+19-Jan-2018 08:57:40.112 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/ROOT
+19-Jan-2018 08:57:40.160 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/ROOT has finished in 49 ms
+19-Jan-2018 08:57:40.169 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Jan-2018 08:57:40.181 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Jan-2018 08:57:40.186 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 18152 ms
