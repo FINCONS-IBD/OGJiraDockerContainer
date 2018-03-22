@@ -1,0 +1,200 @@
+2018-01-18 11:43:30 INFO  TokenServiceRestletApplication:24 - Created and returned the Restlet Context with url-resource association...
+2018-01-18 11:43:30 INFO  GenerateTokenResource:28 - Called generate Token method with parameters: null
+2018-01-18 11:43:30 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 11:43:30 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 11:43:30 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 11:43:30 INFO  PropertiesHelper:17 - Loading configuration parameters...
+2018-01-18 11:43:30 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 11:43:30 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 11:43:30 INFO  RSACryptService:120 - Private Key reading OK
+2018-01-18 11:44:20 INFO  GenerateTokenResource:28 - Called generate Token method with parameters: null
+2018-01-18 11:44:20 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 11:44:20 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 11:44:20 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 11:44:20 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 11:44:20 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 11:44:20 INFO  RSACryptService:120 - Private Key reading OK
+2018-01-18 11:44:38 INFO  GenerateTokenResource:28 - Called generate Token method with parameters: null
+2018-01-18 11:44:38 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 11:44:38 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 11:44:38 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 11:44:38 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 11:44:38 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 11:44:38 INFO  RSACryptService:120 - Private Key reading OK
+2018-01-18 11:56:55 INFO  TokenServiceRestletApplication:24 - Created and returned the Restlet Context with url-resource association...
+2018-01-18 11:56:55 INFO  GenerateTokenResource:28 - Called generate Token method with parameters: null
+2018-01-18 11:56:55 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 11:56:55 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 11:56:55 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 11:56:55 INFO  PropertiesHelper:17 - Loading configuration parameters...
+2018-01-18 11:56:55 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 11:56:55 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 11:56:55 INFO  RSACryptService:120 - Private Key reading OK
+2018-01-18 12:00:23 INFO  GenerateTokenResource:28 - Called generate Token method with parameters: H/god24CI4YMNieqLZwwyOtY2AwucG4t5xWoP3QSrXmBnzb+WA0YkhVzwdc/dnqgeYn6wJbXkX1s/UEFABaambxvtgMvM1OYkdllyGlZUQWKQ7hCNYtq6SwYas9THICDu6hzL+oZk1Qgmjh4lfE3xDhpxijAnwvvqffWaTwscU28KwNBSRpswp8/Ptnn8oUvJSv6fyzOQEDzI6mjNU9fFKj1I4fTFMz/+K7wCuzFTlWFwvDJf3BZ/le+HMz22oKyYEONM8zgcyj0sjMNkEXJQARPL0N8/HpBBqJLl+8Oxn3J8hGXnFHJAoYpR3LkTI95jqvXGZfib9+8kBA2nwpTvQ==
+2018-01-18 12:00:23 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 12:00:23 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 12:00:23 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 12:00:23 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 12:00:23 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 12:00:23 INFO  RSACryptService:120 - Private Key reading OK
+2018-01-18 12:00:23 INFO  RSACryptService:57 - RSA decryption OK
+2018-01-18 12:00:23 INFO  GenerateTokenResource:43 - Timestamp request 18/01/2018 12:00:23
+2018-01-18 12:00:23 INFO  GenerateTokenResource:48 - New Timestamp generated 18/01/2018 12:00:23
+2018-01-18 12:00:23 INFO  GenerateTokenResource:49 - Expiration time of the request: 18/01/2018 12:01:23
+2018-01-18 12:00:23 INFO  GenerateTokenResource:52 - Time validation OK
+2018-01-18 12:00:23 INFO  GenerateTokenResource:60 - New Token generation OK
+2018-01-18 12:00:23 INFO  RSACryptService:24 - Start RSA encryption of the new Token...
+2018-01-18 12:00:23 INFO  RSACryptService:62 - Get public key from the certificate
+2018-01-18 12:00:23 INFO  RSACryptService:81 - Public Key reading OK
+2018-01-18 12:00:23 INFO  RSACryptService:37 - RSA encryption OK
+2018-01-18 12:00:23 INFO  AESencrp:22 - Start AES encryption...
+2018-01-18 12:00:23 INFO  AESencrp:37 - AES Encryption OK
+2018-01-18 12:00:23 INFO  GenerateTokenResource:66 - Json response {"Token": "Djq4IiHxNstT7vrGOKFwmgiYgCogh24GXo2z8RZ+TRuS+AxLEXqn13AemuXlEyJ0SucH7D69CbfFyksk2VRw6rrJ1UVsaD8LzFOc1iksln21y9guV3/XuryBHfnJ2IXuDpXTb8NeoXUTtX8cbGvW6t4spqCW9wJJRHVSMwexj5JVuvPs519NcimAT/z8cmpkmt+hLMPy3nErcC3o/IcgmL8asJ5xpENf0Ou0bqTUEdi3U+j0rvyI/eQPsysZAFV90vijMp4QjFWK1iKvsjrMaSvuIhH3BQsjz9gNFfr8xb3iZGNCavSRuTQYTN/6KSk40G6faS7tMSWIIs6zb4NM4J6XswNKzrhxAuTMF1ZrLjK2Jgc/wxmSp8g6xly15nDSnsnG/VFK58hWNjEDhp12IOtqThxMutNOckD9EqnrsHb5FdbE9NTgHoLabKh1aPm8clcpnJu4as0KtOKxRc4hxg=="}
+2018-01-18 13:21:56 INFO  GenerateTokenResource:28 - Called generate Token method with parameters: UPqvwCgLP3QqRyTS61MyIsaicWgG/aFGvUdHsk1q6+pYDqF7tppRt1y7Lyo650hCqXnfNvbv4jMHyVB11KXGD/dMZNQv06hvU4jEIx18QwKgjxjgw1J9YMe15H3QyE3HP7JYSNhCd3+pX3E/28PZspWM7mT0OHsAypK/JEjo/RXaWg9MLZ1gSSf0Q/Qzn4y0aAoyGbMMqNorUCjhZigAGTvkSoyI5NaTilsExTlpCPEtJkAK6kPFTO1Lndh6jcn0m4+hh/5rtZT7SuCp1X1LaK8r5pdX/6Sf9wbsAiCE1VX5w2Tz7dmm8dlqgUUFNsl/tPsLwnMEtGj/Djr/ZHw4QA==
+2018-01-18 13:21:56 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 13:21:56 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 13:21:56 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 13:21:56 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 13:21:56 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 13:21:56 INFO  RSACryptService:120 - Private Key reading OK
+2018-01-18 13:21:56 INFO  RSACryptService:57 - RSA decryption OK
+2018-01-18 13:21:56 INFO  GenerateTokenResource:43 - Timestamp request 18/01/2018 13:21:55
+2018-01-18 13:21:56 INFO  GenerateTokenResource:48 - New Timestamp generated 18/01/2018 13:21:56
+2018-01-18 13:21:56 INFO  GenerateTokenResource:49 - Expiration time of the request: 18/01/2018 13:22:55
+2018-01-18 13:21:56 INFO  GenerateTokenResource:52 - Time validation OK
+2018-01-18 13:21:56 INFO  GenerateTokenResource:60 - New Token generation OK
+2018-01-18 13:21:56 INFO  RSACryptService:24 - Start RSA encryption of the new Token...
+2018-01-18 13:21:56 INFO  RSACryptService:62 - Get public key from the certificate
+2018-01-18 13:21:56 INFO  RSACryptService:81 - Public Key reading OK
+2018-01-18 13:21:56 INFO  RSACryptService:37 - RSA encryption OK
+2018-01-18 13:21:56 INFO  AESencrp:22 - Start AES encryption...
+2018-01-18 13:21:56 INFO  AESencrp:37 - AES Encryption OK
+2018-01-18 13:21:56 INFO  GenerateTokenResource:66 - Json response {"Token": "X+x+Fb7G+cd8lxrNMbgoPtCHnUcY+lpH0pApnmzPhX+/ALXAMFv4QqJNV1c8W3elbxNXM3WtGuk7OFykiTzP4iGt+Je8DoaFvcQxpQycwsFTiCFB6YwGTVnH9t5Bt1ky48KZ9OhYyGThWruUS6mQJYITST5EhD2+UqjvzWPJUk8O7BjMa0KGVAlZwnlK9cVxqbZwHUofybJxee59gwtG7T+B60t9dya2QbqGNeOWHIIddChYbuvnl3bWr0nWGoM/hWT0dHFEfYGg4ntVaosBmaywR9qK34dt177EU7wYmm35c3fSej4VFyZuZ2OoXV65xK1EipUbfhWXxOFj1OOzY1nk7oT5U5+FBkqX7LrjbMO8XVmAQCC2XcLy7mbDh8Jwr/ebKAypsSpe0A/Dq33xSjBhZgAS/KZkre1ZzNPNc2FomYA8Ymh21urafgxw8lZjaWOPgUThi+b1OstpPIEhAA=="}
+2018-01-18 13:34:21 INFO  GenerateTokenResource:28 - Called generate Token method with parameters: IHTExS5BKDL/ed5YlYJfl/gQLyKoOMuVCkDsblUgQWw1PGnYlQCDdnQBsQxtOk2dg2iT+c8q/7beqZqm5CQnzv4mJmlUajVuriN1sLIXEg0VlwQKyyqiagVLwEO26ooS3egnoRCt6zTmcNELcdiJSJM8C/lNLZ4S2fLBQ+BFsUl+/3njwol6MwOkMQClYmOKTiH9GJipKbsvGI8CJs1/24Osd1ywiC9SB9xASLpf3JE4k+Y08B1bE3xwVmsUA+rlScN/o2iHfK71zfIPpDlPT1+JhVI/SGFSD71yAKlazArbsdTC0EraZKuSAPEz6BDm0MfCmDV57DNFWPjnbSFE+A==
+2018-01-18 13:34:21 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 13:34:21 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 13:34:21 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 13:34:21 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 13:34:21 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 13:34:21 INFO  RSACryptService:120 - Private Key reading OK
+2018-01-18 13:34:21 INFO  RSACryptService:57 - RSA decryption OK
+2018-01-18 13:34:21 INFO  GenerateTokenResource:43 - Timestamp request 18/01/2018 13:34:21
+2018-01-18 13:34:21 INFO  GenerateTokenResource:48 - New Timestamp generated 18/01/2018 13:34:21
+2018-01-18 13:34:21 INFO  GenerateTokenResource:49 - Expiration time of the request: 18/01/2018 13:35:21
+2018-01-18 13:34:22 INFO  GenerateTokenResource:52 - Time validation OK
+2018-01-18 13:34:22 INFO  GenerateTokenResource:60 - New Token generation OK
+2018-01-18 13:34:22 INFO  RSACryptService:24 - Start RSA encryption of the new Token...
+2018-01-18 13:34:22 INFO  RSACryptService:62 - Get public key from the certificate
+2018-01-18 13:34:22 INFO  RSACryptService:81 - Public Key reading OK
+2018-01-18 13:34:22 INFO  RSACryptService:37 - RSA encryption OK
+2018-01-18 13:34:22 INFO  AESencrp:22 - Start AES encryption...
+2018-01-18 13:34:22 INFO  AESencrp:37 - AES Encryption OK
+2018-01-18 13:34:22 INFO  GenerateTokenResource:66 - Json response {"Token": "5jRvBnuq9jwb7zyJA1zUWFS+lSo1jt6DpP5JuwQqwprWWoU1rAQVQbOfhzc/ggVyAAYKfOxwPzR+3O0EKk1swI6HCnlMl9tpIIx77iAPWlQurrgX4Ro5YLWdTnTfdqqjaFO29rnRH7WTBaP05OLommLwxzaGFQSpNxvBkNNUjd/hRp5u/dtstZZn8GJKWNgHNtoJi6AoY2w117NtdIjlXhrs/8S/hxwVRbLIL1RiUU2GBaSYfuBVy+z/EBBY33zzRB3EMjgTFEX1WtfcHbNX17pE3DPDGCzWJg+thALF40m9hvlJX0OANvloQJIxdv9tiz33Qw0kQMLKQqRRy71TnfTBUDGY6kVrDd1rsiogpw3li7YC22zOG3gvTTBN179ngx7+rGmKaHiW3RX45K3Z5XBN6TKqyzrr4dQGIJ8nAqQuJyMeVnAet6JoTqlT7vWiUr9zcf+Ou0y1QD4hRRUPew=="}
+2018-01-18 14:02:13 INFO  TokenServiceRestletApplication:24 - Created and returned the Restlet Context with url-resource association...
+2018-01-18 14:02:13 INFO  GenerateTokenResource:28 - Called generate Token method with parameters: P2n3bgeHK2Ww2Nvfe4SkidGpQ2GmO7AfPsl7E3GsNUqskzeIHvW66dwR1uYx7I2iCwt2c6TkwkR7rRhflWM60ATRB8cj5+2FedHbiS1F2+yO4xnh6dv5mgcfFJ3v4YN4W0PvAjy7KVe+AGfzM1TefNXGpb1hD8eiXPtGFw19qYZMtS3IVMifjU3D0NLWKsLp296nwsizkpPsgMzbB3r8BfgimaqTiim3+DVsMUCl6+DFO3cnUitRr3tCPL+G5QuU41yXmHrCAUq9zbLBqh8F0mSTJZ5RrpGn58/Ay4oQT3IjyxR336KOxuMtU/P/gIAA3DOEprJf0FSwrVoPVZHMGg==
+2018-01-18 14:02:13 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 14:02:13 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 14:02:13 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 14:02:13 INFO  PropertiesHelper:17 - Loading configuration parameters...
+2018-01-18 14:02:13 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 14:02:13 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 14:02:13 INFO  RSACryptService:120 - Private Key reading OK
+2018-01-18 14:02:13 INFO  RSACryptService:57 - RSA decryption OK
+2018-01-18 14:02:14 INFO  GenerateTokenResource:43 - Timestamp request 18/01/2018 14:02:11
+2018-01-18 14:02:14 INFO  GenerateTokenResource:48 - New Timestamp generated 18/01/2018 14:02:14
+2018-01-18 14:02:14 INFO  GenerateTokenResource:49 - Expiration time of the request: 18/01/2018 14:03:11
+2018-01-18 14:02:14 INFO  GenerateTokenResource:52 - Time validation OK
+2018-01-18 14:02:14 INFO  GenerateTokenResource:60 - New Token generation OK
+2018-01-18 14:02:14 INFO  RSACryptService:24 - Start RSA encryption of the new Token...
+2018-01-18 14:02:14 INFO  RSACryptService:62 - Get public key from the certificate
+2018-01-18 14:02:14 INFO  RSACryptService:81 - Public Key reading OK
+2018-01-18 14:02:14 INFO  RSACryptService:37 - RSA encryption OK
+2018-01-18 14:02:14 INFO  AESencrp:22 - Start AES encryption...
+2018-01-18 14:02:14 INFO  AESencrp:37 - AES Encryption OK
+2018-01-18 14:02:14 INFO  GenerateTokenResource:66 - Json response {"Token": "OtOY67hRiPIaIxswM3egM8JdZjUvnydXQqtwlV2VQ7dBGlDKNrFd2dPw2KuQDZ31ZsozsQw0iVO7tgyGQ/oiog4UwWzyXnrszN8n/7yAhBLm2eiUh2YnwuVkH7PQ4htJJIGINgoWyoTV+TXWc29QH1IQnRrISyB2kxosgMUdwrD1PXXzY/5aKj5UjUSMI9Qt9+HTiKrRDMEvDmvXPIxZK3gszKR0oDPcB5wE61lRaQ6ECSpPxTD239NvkUU4HUFvyof02yIcTCpbL79HhTezEtGeTNwTc6WV/g4xzgNl7zGnpsP1G3fLGegHkU1mhnCBeON7xBqtNO1a6XVjOOULfGkf2KKz01QHEUmE9iVstaoRcaALxfy9KwVfxiL5RSz4Yq9ipEy1RAacSzRbS/+USqWkntAVBWS/ZsRPQYNZqGVqpIaaemqL9cdvr7jYOXmouLPJN607GGoJ3fGYcmm4vA=="}
+2018-01-18 14:18:36 INFO  TokenServiceRestletApplication:24 - Created and returned the Restlet Context with url-resource association...
+2018-01-18 14:18:36 INFO  GenerateTokenResource:28 - Called generate Token method with parameters: g/KBL4n6uM5NzJTn3Q7qB/lffK1gqvs+6HDxauneQWGQ0FqrUj/tH3MXIBvJoJOU/EheMWiGYgtzKd5tCMFuIteiiCfQAhFXNUypYgFd/oJa3NBPoJ+DNsRvN/33Dl7oCaM3vw75KS19hpVELgTPtqZFFPw1vbiXVRsonPNQYdDIgdmjHv2xvIoDkg+wrIzP40df+5Zw592iCP1puAB7/nqERbquJtHY8m9e6wE3BBhm1Tj3CAEaQX5OqXcUor/yomuGF6Dbw6DcOegWrnoVzHil7x8AQFFZkgcFdDIPs11hQ4JriVbhTedaloTpy1Dtl+3g3GSHHW6oVV6WCmhPGg==
+2018-01-18 14:18:36 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 14:18:36 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 14:18:36 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 14:18:36 INFO  PropertiesHelper:17 - Loading configuration parameters...
+2018-01-18 14:18:36 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 14:18:36 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 14:18:36 INFO  RSACryptService:120 - Private Key reading OK
+2018-01-18 14:18:36 INFO  RSACryptService:57 - RSA decryption OK
+2018-01-18 14:18:36 INFO  GenerateTokenResource:43 - Timestamp request 18/01/2018 14:18:34
+2018-01-18 14:18:36 INFO  GenerateTokenResource:48 - New Timestamp generated 18/01/2018 14:18:36
+2018-01-18 14:18:36 INFO  GenerateTokenResource:49 - Expiration time of the request: 18/01/2018 14:19:34
+2018-01-18 14:18:36 INFO  GenerateTokenResource:52 - Time validation OK
+2018-01-18 14:18:36 INFO  GenerateTokenResource:60 - New Token generation OK
+2018-01-18 14:18:36 INFO  RSACryptService:24 - Start RSA encryption of the new Token...
+2018-01-18 14:18:36 INFO  RSACryptService:62 - Get public key from the certificate
+2018-01-18 14:18:36 INFO  RSACryptService:81 - Public Key reading OK
+2018-01-18 14:18:36 INFO  RSACryptService:37 - RSA encryption OK
+2018-01-18 14:18:36 INFO  AESencrp:22 - Start AES encryption...
+2018-01-18 14:18:36 INFO  AESencrp:37 - AES Encryption OK
+2018-01-18 14:18:36 INFO  GenerateTokenResource:66 - Json response {"Token": "XpNlWEiYpwzi6tHF+3ELfTBaySRMU4pBur/BjIIGOjW3sTPVzIEBdpJIGHYbaEUyh8wDLvEur/SYwp0vTUtJjDxGcESWwIATMU+Hdbfdxf+hXoPfgcy7q01p371bmyDbbgQ0MTGiUohBQwyJu/fXPgB5LJMrv2A/ciUVErN06e5ka9IRG6lV+YRXxKH2cipLu6PdR4+UUj/q5I7fwlc1JH4crbkUxZhTWp/DLba+K8OwvhuxymawxAHrTFJbtezPqbnwmVKTA16XhfAHq7dPuINxhnnvxnRIa23UkX0WbhnLgCaNCwD6HpMjBWr/Qk1Q4wtSc6Ia4tvLPVvA7AWw9R+iFljdNTR9GLEqWYLRqQ0uGgnc3evV/p1ottKampdf5+PPsAZ+whnoAI0Sw2fPzOoL9gsIODM77g8IzA7SXqUpkSSZSDYxcUEv8OmijnJSqI4oettMaMCq+uAYMd2jmQ=="}
+2018-01-18 14:45:49 INFO  TokenServiceRestletApplication:24 - Created and returned the Restlet Context with url-resource association...
+2018-01-18 14:45:49 INFO  GenerateTokenResource:28 - Called generate Token method with parameters: D7WT1Kneiq9hEjcuwGIFiAnDWsm5bt0NWqTeOnGvwDCE/qXGkYiC8oPxebaNtOl5coXLpoyX7UPy0edmifZgNJxtgojnmx3zDTtn0ADop1fW91mxu9Kfi/YWhWD+pAW0PBAWgYNpulZCI1ciegxPEP2yy085PtkfP4Plqc1v+edoRiaYts7WNAddR8Qt+hnBg6CQpOs1jGvxTEP1ct2JsTNwfcgolaYDQVWMh7fZZ+3lkX8K7+ZPDImfLguSRnLf2g+Ml/9ctzGy46S7uCx1DeUPol29fZatnMrs9GqeweKnyCFJwzVXDGvhtX1yMptOGdwok/+xVgQOs196uAe9oA==
+2018-01-18 14:45:49 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 14:45:49 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 14:45:49 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 14:45:49 INFO  PropertiesHelper:17 - Loading configuration parameters...
+2018-01-18 14:45:49 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 14:45:49 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 14:45:49 INFO  RSACryptService:120 - Private Key reading OK
+2018-01-18 14:45:49 INFO  RSACryptService:57 - RSA decryption OK
+2018-01-18 14:45:49 INFO  GenerateTokenResource:43 - Timestamp request 18/01/2018 14:45:48
+2018-01-18 14:45:49 INFO  GenerateTokenResource:48 - New Timestamp generated 18/01/2018 14:45:49
+2018-01-18 14:45:49 INFO  GenerateTokenResource:49 - Expiration time of the request: 18/01/2018 14:46:48
+2018-01-18 14:45:49 INFO  GenerateTokenResource:52 - Time validation OK
+2018-01-18 14:45:49 INFO  GenerateTokenResource:60 - New Token generation OK
+2018-01-18 14:45:49 INFO  RSACryptService:24 - Start RSA encryption of the new Token...
+2018-01-18 14:45:49 INFO  RSACryptService:62 - Get public key from the certificate
+2018-01-18 14:45:49 INFO  RSACryptService:81 - Public Key reading OK
+2018-01-18 14:45:49 INFO  RSACryptService:37 - RSA encryption OK
+2018-01-18 14:45:49 INFO  AESencrp:22 - Start AES encryption...
+2018-01-18 14:45:49 INFO  AESencrp:37 - AES Encryption OK
+2018-01-18 14:45:49 INFO  GenerateTokenResource:66 - Json response {"Token": "Z9nFs34PUnRz7S9JDD5e/sQZgzV2kSQ37YxJaggnP+nuXO9Br+Vqs5a9XlphFM7AfJvVv2EHLu9ipqyHPgrlOFToI/voLTC1vARe7/4nLjtUIGRLU31fN9jd/HGsLXE93xJPw+Dkb1diuh/kVecij++yCLSqlHsJxcniIYryx3ixve0Pi/rgi4l8PlCVPGoY4REIpBKtbtqCSwxwwFy2kwC68EwTJvggdOYnOpDm3LFSziYpgsAWOxep/j3jb2qeVqhc7htWvfnQIQjSnnLCrzcVbAFwuhdPYi18jZi1qbHCIVS5FJ7a6k1KGUS+3RbpLzvQ/WNZljGJURnwEE/rCDtUQsImuCwtzTCCYA/uZDPrfEODIifYjzddFbNMJiymZZ9gUCoZAQq/DAqJMw8P6+c8YU9KHMAVI5SZKz8ak84R9m+0STzIwO7oHmjspC7bgv9Ps2WZpbyz/YFuym+E0w=="}
+2018-01-18 14:54:14 INFO  TokenServiceRestletApplication:24 - Created and returned the Restlet Context with url-resource association...
+2018-01-18 14:54:14 INFO  GenerateTokenResource:28 - Called generate Token method with parameters: Ic4qtr7cm1oUA5ue9cWtCHZufqFiCDKv8yEdIpxQB2a9NsU3LcDWExR9hfB9P15H1t1zO0XnwqxKv5G+PyT7pEi8p0JmdTGE2cD6L9GX35MNTkDHmcLg0PinID5vnl2zgUdnStoPrqzGKAMozRCtFbzg/cuj8mBVbf12yvtn9u3wdmDKcxun48NwZ0vjvPRbTwrbxYWIdJlfQ4Webze2gu8nKe6wD73UDSmqh4ju+Od8hzAKvPkyG2RsdUelblFd1acJXEpcMZInnM3viZb3kd7lka8a+nRSIKCO2P21XerOpdTVm/L0yZ43O3Ut+UlTOlPUUsbUtDVJHdeRrItzYg==
+2018-01-18 14:54:14 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 14:54:14 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 14:54:14 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 14:54:14 INFO  PropertiesHelper:17 - Loading configuration parameters...
+2018-01-18 14:54:14 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 14:54:14 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 14:54:14 INFO  RSACryptService:120 - Private Key reading OK
+2018-01-18 14:54:14 INFO  RSACryptService:57 - RSA decryption OK
+2018-01-18 14:54:14 INFO  GenerateTokenResource:43 - Timestamp request 18/01/2018 14:54:12
+2018-01-18 14:54:14 INFO  GenerateTokenResource:48 - New Timestamp generated 18/01/2018 14:54:14
+2018-01-18 14:54:14 INFO  GenerateTokenResource:49 - Expiration time of the request: 18/01/2018 14:55:12
+2018-01-18 14:54:14 INFO  GenerateTokenResource:52 - Time validation OK
+2018-01-18 14:54:14 INFO  GenerateTokenResource:60 - New Token generation OK
+2018-01-18 14:54:14 INFO  RSACryptService:24 - Start RSA encryption of the new Token...
+2018-01-18 14:54:14 INFO  RSACryptService:62 - Get public key from the certificate
+2018-01-18 14:54:14 INFO  RSACryptService:81 - Public Key reading OK
+2018-01-18 14:54:14 INFO  RSACryptService:37 - RSA encryption OK
+2018-01-18 14:54:14 INFO  AESencrp:22 - Start AES encryption...
+2018-01-18 14:54:14 INFO  AESencrp:37 - AES Encryption OK
+2018-01-18 14:54:14 INFO  GenerateTokenResource:66 - Json response {"Token": "QDfF+ATguCXLTC1ypjYdydLKEgZUG8Atg8IXgSbxkEuoiVDcOctZbF/HBqMTbRV3pBGN85knz7tkcgikBI5rVBkJ5ZO4fAanatHv6xkbFH9MhLWxSdPtmOHLhy4coiO4Co8zFdpXvwtJtWZ+OamHJX2vb8KZ7UmLD4dXDImhT6/+NLpnB9A1oSgQXe3pIKBNtr53uIMqLe6JTgyjYaP683C5NZNnzjPUOpbkRCMY6cYfiOgw9sGTUhFD/8nYqqmEhL7LbyrPVfG25FS/8xx1zu4QtfKbGTgtwKBwlEeWRXksE0hDInIgWBtK+XEhpfn7FGJC5LFULmiLQ7pnlnzFVzFqW+fJyWJUX5xS2unp/pG6uZVwFdH9uAKnDd5mXm5HUdUCkyoa71tdAp4Kqq7M8HUDbtipayH3N6CiTTd1OjMUPcG2zR2g18zpg+rnzzsTc04rvT1PGc31LnmZKfGA7A=="}
+2018-01-18 14:54:45 INFO  GenerateTokenResource:18 - Start get Credential from the Token...
+2018-01-18 14:54:45 INFO  GenerateTokenResource:23 - Decrypting token to get user info
+2018-01-18 14:54:45 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 14:54:45 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 14:54:45 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 14:54:45 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 14:54:45 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 14:54:45 INFO  RSACryptService:120 - Private Key reading OK
+2018-01-18 14:54:46 INFO  RSACryptService:57 - RSA decryption OK
+2018-01-18 14:54:46 INFO  GenerateTokenResource:34 - Credentials retrieved
+2018-01-18 14:54:48 INFO  GenerateTokenResource:18 - Start get Credential from the Token...
+2018-01-18 14:54:48 INFO  GenerateTokenResource:23 - Decrypting token to get user info
+2018-01-18 14:54:48 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 14:54:48 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 14:54:48 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 14:54:48 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 14:54:48 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 14:54:48 INFO  RSACryptService:120 - Private Key reading OK
+2018-01-18 14:54:48 INFO  RSACryptService:57 - RSA decryption OK
+2018-01-18 14:54:48 INFO  GenerateTokenResource:34 - Credentials retrieved

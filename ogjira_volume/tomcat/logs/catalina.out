@@ -1,0 +1,1456 @@
+18-Jan-2018 09:01:34.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.48
+18-Jan-2018 09:01:34.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 30 2017 16:26:50 UTC
+18-Jan-2018 09:01:34.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.48.0
+18-Jan-2018 09:01:34.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jan-2018 09:01:34.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.60-linuxkit-aufs
+18-Jan-2018 09:01:34.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jan-2018 09:01:34.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/bitnami/java
+18-Jan-2018 09:01:34.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+18-Jan-2018 09:01:34.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Jan-2018 09:01:34.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/bitnami/tomcat
+18-Jan-2018 09:01:34.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/bitnami/tomcat
+18-Jan-2018 09:01:34.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/bitnami/tomcat/conf/logging.properties
+18-Jan-2018 09:01:34.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jan-2018 09:01:34.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+18-Jan-2018 09:01:34.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+18-Jan-2018 09:01:34.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Jan-2018 09:01:34.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jan-2018 09:01:34.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jan-2018 09:01:34.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Jan-2018 09:01:34.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/bitnami/tomcat
+18-Jan-2018 09:01:34.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/bitnami/tomcat
+18-Jan-2018 09:01:34.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/bitnami/tomcat/temp
+18-Jan-2018 09:01:34.634 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+18-Jan-2018 09:01:35.024 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 09:01:35.052 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 09:01:35.055 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 09:01:35.549 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 09:01:35.553 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 09:01:35.565 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 09:01:35.568 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1851 ms
+18-Jan-2018 09:01:35.710 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Jan-2018 09:01:35.711 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.48
+18-Jan-2018 09:01:35.833 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/oslc4bugzilla.war
+18-Jan-2018 09:01:54.473 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+bugzilla_uri: http://bzweb:80
+admin: admin@example.com
+log4j:WARN No appenders could be found for logger (com.hp.hpl.jena.util.FileManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+18-Jan-2018 09:02:00.238 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/oslc4bugzilla.war has finished in 24,403 ms
+18-Jan-2018 09:02:00.267 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/Token_Service_Excel.war
+18-Jan-2018 09:02:03.016 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Jan-2018 09:02:03.040 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/Token_Service_Excel.war has finished in 2,772 ms
+18-Jan-2018 09:02:03.042 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/docs
+18-Jan-2018 09:02:03.110 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/docs has finished in 67 ms
+18-Jan-2018 09:02:03.110 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/examples
+18-Jan-2018 09:02:03.765 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/examples has finished in 655 ms
+18-Jan-2018 09:02:03.766 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/host-manager
+18-Jan-2018 09:02:03.813 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/host-manager has finished in 46 ms
+18-Jan-2018 09:02:03.813 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/manager
+18-Jan-2018 09:02:03.849 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/manager has finished in 35 ms
+18-Jan-2018 09:02:03.849 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/ROOT
+18-Jan-2018 09:02:03.878 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/ROOT has finished in 29 ms
+18-Jan-2018 09:02:03.885 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 09:02:03.892 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 09:02:03.904 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 09:02:03.907 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 28339 ms
+18-Jan-2018 09:02:40.888 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Jan-2018 09:02:40.888 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 09:02:40.941 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 09:02:40.992 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 09:02:41.042 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+18-Jan-2018 09:02:41.133 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 09:02:41.137 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 09:02:41.190 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 09:02:41.192 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 09:02:41.193 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 09:02:41.194 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 09:03:12.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.48
+18-Jan-2018 09:03:12.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 30 2017 16:26:50 UTC
+18-Jan-2018 09:03:12.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.48.0
+18-Jan-2018 09:03:12.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jan-2018 09:03:12.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.60-linuxkit-aufs
+18-Jan-2018 09:03:12.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jan-2018 09:03:12.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/bitnami/java
+18-Jan-2018 09:03:12.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+18-Jan-2018 09:03:12.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Jan-2018 09:03:12.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/bitnami/tomcat
+18-Jan-2018 09:03:12.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/bitnami/tomcat
+18-Jan-2018 09:03:12.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/bitnami/tomcat/conf/logging.properties
+18-Jan-2018 09:03:12.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jan-2018 09:03:12.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+18-Jan-2018 09:03:12.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+18-Jan-2018 09:03:12.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Jan-2018 09:03:12.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jan-2018 09:03:12.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jan-2018 09:03:12.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Jan-2018 09:03:12.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/bitnami/tomcat
+18-Jan-2018 09:03:12.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/bitnami/tomcat
+18-Jan-2018 09:03:12.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/bitnami/tomcat/temp
+18-Jan-2018 09:03:12.548 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+18-Jan-2018 09:03:13.140 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 09:03:13.235 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 09:03:13.252 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 09:03:14.082 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 09:03:14.090 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 09:03:14.095 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 09:03:14.096 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2454 ms
+18-Jan-2018 09:03:14.207 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Jan-2018 09:03:14.207 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.48
+18-Jan-2018 09:03:14.359 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/oslc4bugzilla.war
+18-Jan-2018 09:03:23.290 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+bugzilla_uri: http://bzweb:80
+admin: admin@example.com
+log4j:WARN No appenders could be found for logger (com.hp.hpl.jena.util.FileManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+18-Jan-2018 09:03:30.837 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/oslc4bugzilla.war has finished in 16,478 ms
+18-Jan-2018 09:03:30.871 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/Token_Service_Excel.war
+18-Jan-2018 09:03:34.096 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Jan-2018 09:03:34.163 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/Token_Service_Excel.war has finished in 3,292 ms
+18-Jan-2018 09:03:34.169 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/docs
+18-Jan-2018 09:03:34.241 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/docs has finished in 72 ms
+18-Jan-2018 09:03:34.242 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/examples
+18-Jan-2018 09:03:35.352 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/examples has finished in 1,110 ms
+18-Jan-2018 09:03:35.354 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/host-manager
+18-Jan-2018 09:03:35.477 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/host-manager has finished in 123 ms
+18-Jan-2018 09:03:35.478 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/manager
+18-Jan-2018 09:03:35.564 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/manager has finished in 86 ms
+18-Jan-2018 09:03:35.565 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/ROOT
+18-Jan-2018 09:03:35.631 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/ROOT has finished in 67 ms
+18-Jan-2018 09:03:35.643 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 09:03:35.667 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 09:03:35.676 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 09:03:35.687 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 21590 ms
+18-Jan-2018 09:06:50.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.48
+18-Jan-2018 09:06:50.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 30 2017 16:26:50 UTC
+18-Jan-2018 09:06:50.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.48.0
+18-Jan-2018 09:06:50.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jan-2018 09:06:50.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.60-linuxkit-aufs
+18-Jan-2018 09:06:50.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jan-2018 09:06:50.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/bitnami/java
+18-Jan-2018 09:06:50.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+18-Jan-2018 09:06:50.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Jan-2018 09:06:50.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/bitnami/tomcat
+18-Jan-2018 09:06:50.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/bitnami/tomcat
+18-Jan-2018 09:06:50.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/bitnami/tomcat/conf/logging.properties
+18-Jan-2018 09:06:50.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jan-2018 09:06:50.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+18-Jan-2018 09:06:50.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+18-Jan-2018 09:06:50.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Jan-2018 09:06:50.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jan-2018 09:06:50.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jan-2018 09:06:50.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Jan-2018 09:06:50.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/bitnami/tomcat
+18-Jan-2018 09:06:50.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/bitnami/tomcat
+18-Jan-2018 09:06:50.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/bitnami/tomcat/temp
+18-Jan-2018 09:06:50.786 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+18-Jan-2018 09:06:51.186 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 09:06:51.239 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 09:06:51.248 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 09:06:51.885 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 09:06:51.887 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 09:06:51.891 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 09:06:51.892 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2244 ms
+18-Jan-2018 09:06:51.956 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Jan-2018 09:06:51.957 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.48
+18-Jan-2018 09:06:52.046 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/oslc4bugzilla.war
+18-Jan-2018 09:07:00.472 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+bugzilla_uri: http://bzweb:80
+admin: admin@example.com
+log4j:WARN No appenders could be found for logger (com.hp.hpl.jena.util.FileManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+18-Jan-2018 09:07:07.249 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/oslc4bugzilla.war has finished in 15,203 ms
+18-Jan-2018 09:07:07.277 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/Token_Service_Excel.war
+18-Jan-2018 09:07:09.795 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Jan-2018 09:07:09.829 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/Token_Service_Excel.war has finished in 2,552 ms
+18-Jan-2018 09:07:09.832 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/docs
+18-Jan-2018 09:07:09.895 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/docs has finished in 63 ms
+18-Jan-2018 09:07:09.895 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/examples
+18-Jan-2018 09:07:10.557 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/examples has finished in 662 ms
+18-Jan-2018 09:07:10.557 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/host-manager
+18-Jan-2018 09:07:10.639 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/host-manager has finished in 82 ms
+18-Jan-2018 09:07:10.639 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/manager
+18-Jan-2018 09:07:10.720 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/manager has finished in 81 ms
+18-Jan-2018 09:07:10.721 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/ROOT
+18-Jan-2018 09:07:10.766 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/ROOT has finished in 45 ms
+18-Jan-2018 09:07:10.784 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 09:07:10.838 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 09:07:10.841 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 09:07:10.843 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 18950 ms
+18-Jan-2018 09:19:07.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.48
+18-Jan-2018 09:19:07.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 30 2017 16:26:50 UTC
+18-Jan-2018 09:19:07.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.48.0
+18-Jan-2018 09:19:07.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jan-2018 09:19:07.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.60-linuxkit-aufs
+18-Jan-2018 09:19:07.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jan-2018 09:19:07.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/bitnami/java
+18-Jan-2018 09:19:07.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+18-Jan-2018 09:19:07.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Jan-2018 09:19:07.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/bitnami/tomcat
+18-Jan-2018 09:19:07.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/bitnami/tomcat
+18-Jan-2018 09:19:07.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/bitnami/tomcat/conf/logging.properties
+18-Jan-2018 09:19:07.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jan-2018 09:19:07.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+18-Jan-2018 09:19:07.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+18-Jan-2018 09:19:07.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Jan-2018 09:19:07.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jan-2018 09:19:07.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jan-2018 09:19:07.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Jan-2018 09:19:07.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/bitnami/tomcat
+18-Jan-2018 09:19:07.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/bitnami/tomcat
+18-Jan-2018 09:19:07.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/bitnami/tomcat/temp
+18-Jan-2018 09:19:07.814 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+18-Jan-2018 09:19:08.351 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 09:19:08.404 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 09:19:08.414 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 09:19:09.031 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 09:19:09.040 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 09:19:09.046 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 09:19:09.058 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2189 ms
+18-Jan-2018 09:19:09.153 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Jan-2018 09:19:09.155 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.48
+18-Jan-2018 09:19:09.266 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/oslc4bugzilla.war
+18-Jan-2018 09:19:18.301 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+bugzilla_uri: http://bzweb:80
+admin: admin@example.com
+log4j:WARN No appenders could be found for logger (com.hp.hpl.jena.util.FileManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+18-Jan-2018 09:19:24.306 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/oslc4bugzilla.war has finished in 15,042 ms
+18-Jan-2018 09:19:24.316 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/Token_Service_Excel.war
+18-Jan-2018 09:19:26.523 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Jan-2018 09:19:26.572 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/Token_Service_Excel.war has finished in 2,256 ms
+18-Jan-2018 09:19:26.576 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/docs
+18-Jan-2018 09:19:26.663 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/docs has finished in 87 ms
+18-Jan-2018 09:19:26.663 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/examples
+18-Jan-2018 09:19:27.508 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/examples has finished in 845 ms
+18-Jan-2018 09:19:27.508 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/host-manager
+18-Jan-2018 09:19:27.571 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/host-manager has finished in 63 ms
+18-Jan-2018 09:19:27.572 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/manager
+18-Jan-2018 09:19:27.656 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/manager has finished in 84 ms
+18-Jan-2018 09:19:27.656 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/ROOT
+18-Jan-2018 09:19:27.709 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/ROOT has finished in 52 ms
+18-Jan-2018 09:19:27.729 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 09:19:27.768 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 09:19:27.774 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 09:19:27.789 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 18728 ms
+18-Jan-2018 11:32:17.839 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Jan-2018 11:32:17.842 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 11:32:17.899 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 11:32:17.950 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 11:32:18.002 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+18-Jan-2018 11:32:18.198 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 11:32:18.232 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 11:32:18.333 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 11:32:18.372 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 11:32:18.373 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 11:32:18.374 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 11:33:01.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.48
+18-Jan-2018 11:33:02.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 30 2017 16:26:50 UTC
+18-Jan-2018 11:33:02.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.48.0
+18-Jan-2018 11:33:02.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jan-2018 11:33:02.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.60-linuxkit-aufs
+18-Jan-2018 11:33:02.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jan-2018 11:33:02.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/bitnami/java
+18-Jan-2018 11:33:02.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+18-Jan-2018 11:33:02.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Jan-2018 11:33:02.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/bitnami/tomcat
+18-Jan-2018 11:33:02.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/bitnami/tomcat
+18-Jan-2018 11:33:02.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/bitnami/tomcat/conf/logging.properties
+18-Jan-2018 11:33:02.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jan-2018 11:33:02.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+18-Jan-2018 11:33:02.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+18-Jan-2018 11:33:02.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Jan-2018 11:33:02.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jan-2018 11:33:02.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jan-2018 11:33:02.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Jan-2018 11:33:02.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/bitnami/tomcat
+18-Jan-2018 11:33:02.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/bitnami/tomcat
+18-Jan-2018 11:33:02.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/bitnami/tomcat/temp
+18-Jan-2018 11:33:02.035 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+18-Jan-2018 11:33:02.588 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 11:33:02.626 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 11:33:02.631 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 11:33:03.531 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 11:33:03.534 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 11:33:03.544 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 11:33:03.553 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2599 ms
+18-Jan-2018 11:33:03.652 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Jan-2018 11:33:03.652 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.48
+18-Jan-2018 11:33:03.780 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/oslc4bugzilla.war
+18-Jan-2018 11:33:14.477 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+bugzilla_uri: http://bzweb:80
+admin: admin@example.com
+log4j:WARN No appenders could be found for logger (com.hp.hpl.jena.util.FileManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+18-Jan-2018 11:33:22.836 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/oslc4bugzilla.war has finished in 19,055 ms
+18-Jan-2018 11:33:22.863 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/Token_Service_Excel.war
+18-Jan-2018 11:33:26.381 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Jan-2018 11:33:26.415 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/Token_Service_Excel.war has finished in 3,553 ms
+18-Jan-2018 11:33:26.419 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/docs
+18-Jan-2018 11:33:26.470 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/docs has finished in 51 ms
+18-Jan-2018 11:33:26.471 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/examples
+18-Jan-2018 11:33:27.387 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/examples has finished in 916 ms
+18-Jan-2018 11:33:27.387 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/host-manager
+18-Jan-2018 11:33:27.464 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/host-manager has finished in 77 ms
+18-Jan-2018 11:33:27.465 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/manager
+18-Jan-2018 11:33:27.540 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/manager has finished in 75 ms
+18-Jan-2018 11:33:27.540 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/ROOT
+18-Jan-2018 11:33:27.607 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/ROOT has finished in 66 ms
+18-Jan-2018 11:33:27.628 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 11:33:27.670 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 11:33:27.674 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 11:33:27.683 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 24128 ms
+18-Jan-2018 11:43:30.086 INFO [http-nio-8443-exec-3] org.restlet.engine.connector.HttpClientHelper.start Starting the internal HTTP client
+18-Jan-2018 11:43:30.086 INFO [http-nio-8443-exec-3] org.restlet.engine.connector.HttpClientHelper.start Starting the internal HTTP client
+2018-01-18 11:43:30 INFO  TokenServiceRestletApplication:24 - Created and returned the Restlet Context with url-resource association...
+2018-01-18 11:43:30 INFO  GenerateTokenResource:28 - Called generate Token method with parameters: null
+2018-01-18 11:43:30 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 11:43:30 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 11:43:30 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 11:43:30 INFO  PropertiesHelper:17 - Loading configuration parameters...
+2018-01-18 11:43:30 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 11:43:30 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 11:43:30 INFO  RSACryptService:120 - Private Key reading OK
+18-Jan-2018 11:43:30.567 WARNING [http-nio-8443-exec-3] org.restlet.resource.ServerResource.doCatch Exception or error caught in server resource
+ Internal Server Error (500) - The server encountered an unexpected condition which prevented it from fulfilling the request
+	at org.restlet.resource.ServerResource.doHandle(ServerResource.java:540)
+	at org.restlet.resource.ServerResource.post(ServerResource.java:1346)
+	at org.restlet.resource.ServerResource.doHandle(ServerResource.java:621)
+	at org.restlet.resource.ServerResource.doNegotiatedHandle(ServerResource.java:679)
+	at org.restlet.resource.ServerResource.doConditionalHandle(ServerResource.java:357)
+	at org.restlet.resource.ServerResource.handle(ServerResource.java:1014)
+	at org.restlet.resource.Finder.handle(Finder.java:246)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Router.doHandle(Router.java:431)
+	at org.restlet.routing.Router.handle(Router.java:648)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.engine.application.StatusFilter.doHandle(StatusFilter.java:155)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.engine.CompositeHelper.handle(CompositeHelper.java:211)
+	at org.restlet.engine.application.ApplicationHelper.handle(ApplicationHelper.java:84)
+	at org.restlet.Application.handle(Application.java:384)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Router.doHandle(Router.java:431)
+	at org.restlet.routing.Router.handle(Router.java:648)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Router.doHandle(Router.java:431)
+	at org.restlet.routing.Router.handle(Router.java:648)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.engine.CompositeHelper.handle(CompositeHelper.java:211)
+	at org.restlet.Component.handle(Component.java:406)
+	at org.restlet.Server.handle(Server.java:516)
+	at org.restlet.engine.connector.ServerHelper.handle(ServerHelper.java:72)
+	at org.restlet.engine.adapter.HttpServerHelper.handle(HttpServerHelper.java:152)
+	at org.restlet.ext.servlet.ServerServlet.service(ServerServlet.java:1118)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:616)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1132)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1539)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1495)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at org.apache.tomcat.util.codec.binary.BaseNCodec.decode(BaseNCodec.java:398)
+	at org.apache.tomcat.util.codec.binary.BaseNCodec.decode(BaseNCodec.java:386)
+	at org.apache.tomcat.util.codec.binary.Base64.decodeBase64(Base64.java:675)
+	at com.fincons.token.utils.RSACryptService.decrypt(RSACryptService.java:45)
+	at com.fincons.token.restlet.GenerateTokenResource.generateToken(GenerateTokenResource.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.restlet.resource.ServerResource.doHandle(ServerResource.java:521)
+	... 60 more
+
+18-Jan-2018 11:43:30.633 INFO [http-nio-8443-exec-3] org.restlet.engine.log.LogFilter.afterHandle 2018-01-18	11:43:30	172.21.0.1	-	172.21.0.2	8443	POST	/Token_Service_Excel/generateToken	-	500	486	0	221	https://tomcat-ogjira.example.com:8443	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)	-
+2018-01-18 11:44:20 INFO  GenerateTokenResource:28 - Called generate Token method with parameters: null
+2018-01-18 11:44:20 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 11:44:20 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 11:44:20 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 11:44:20 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 11:44:20 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 11:44:20 INFO  RSACryptService:120 - Private Key reading OK
+18-Jan-2018 11:44:20.798 WARNING [http-nio-8443-exec-10] org.restlet.resource.ServerResource.doCatch Exception or error caught in server resource
+ Internal Server Error (500) - The server encountered an unexpected condition which prevented it from fulfilling the request
+	at org.restlet.resource.ServerResource.doHandle(ServerResource.java:540)
+	at org.restlet.resource.ServerResource.post(ServerResource.java:1346)
+	at org.restlet.resource.ServerResource.doHandle(ServerResource.java:621)
+	at org.restlet.resource.ServerResource.doNegotiatedHandle(ServerResource.java:679)
+	at org.restlet.resource.ServerResource.doConditionalHandle(ServerResource.java:357)
+	at org.restlet.resource.ServerResource.handle(ServerResource.java:1014)
+	at org.restlet.resource.Finder.handle(Finder.java:246)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Router.doHandle(Router.java:431)
+	at org.restlet.routing.Router.handle(Router.java:648)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.engine.application.StatusFilter.doHandle(StatusFilter.java:155)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.engine.CompositeHelper.handle(CompositeHelper.java:211)
+	at org.restlet.engine.application.ApplicationHelper.handle(ApplicationHelper.java:84)
+	at org.restlet.Application.handle(Application.java:384)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Router.doHandle(Router.java:431)
+	at org.restlet.routing.Router.handle(Router.java:648)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Router.doHandle(Router.java:431)
+	at org.restlet.routing.Router.handle(Router.java:648)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.engine.CompositeHelper.handle(CompositeHelper.java:211)
+	at org.restlet.Component.handle(Component.java:406)
+	at org.restlet.Server.handle(Server.java:516)
+	at org.restlet.engine.connector.ServerHelper.handle(ServerHelper.java:72)
+	at org.restlet.engine.adapter.HttpServerHelper.handle(HttpServerHelper.java:152)
+	at org.restlet.ext.servlet.ServerServlet.service(ServerServlet.java:1118)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:616)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1132)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1539)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1495)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at org.apache.tomcat.util.codec.binary.BaseNCodec.decode(BaseNCodec.java:398)
+	at org.apache.tomcat.util.codec.binary.BaseNCodec.decode(BaseNCodec.java:386)
+	at org.apache.tomcat.util.codec.binary.Base64.decodeBase64(Base64.java:675)
+	at com.fincons.token.utils.RSACryptService.decrypt(RSACryptService.java:45)
+	at com.fincons.token.restlet.GenerateTokenResource.generateToken(GenerateTokenResource.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.restlet.resource.ServerResource.doHandle(ServerResource.java:521)
+	... 60 more
+
+18-Jan-2018 11:44:20.822 INFO [http-nio-8443-exec-10] org.restlet.engine.log.LogFilter.afterHandle 2018-01-18	11:44:20	172.21.0.1	-	172.21.0.2	8443	POST	/Token_Service_Excel/generateToken	-	500	486	0	99	https://tomcat-ogjira.example.com:8443	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)	-
+2018-01-18 11:44:38 INFO  GenerateTokenResource:28 - Called generate Token method with parameters: null
+2018-01-18 11:44:38 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 11:44:38 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 11:44:38 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 11:44:38 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 11:44:38 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 11:44:38 INFO  RSACryptService:120 - Private Key reading OK
+18-Jan-2018 11:44:38.254 WARNING [http-nio-8443-exec-8] org.restlet.resource.ServerResource.doCatch Exception or error caught in server resource
+ Internal Server Error (500) - The server encountered an unexpected condition which prevented it from fulfilling the request
+	at org.restlet.resource.ServerResource.doHandle(ServerResource.java:540)
+	at org.restlet.resource.ServerResource.post(ServerResource.java:1346)
+	at org.restlet.resource.ServerResource.doHandle(ServerResource.java:621)
+	at org.restlet.resource.ServerResource.doNegotiatedHandle(ServerResource.java:679)
+	at org.restlet.resource.ServerResource.doConditionalHandle(ServerResource.java:357)
+	at org.restlet.resource.ServerResource.handle(ServerResource.java:1014)
+	at org.restlet.resource.Finder.handle(Finder.java:246)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Router.doHandle(Router.java:431)
+	at org.restlet.routing.Router.handle(Router.java:648)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.engine.application.StatusFilter.doHandle(StatusFilter.java:155)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.engine.CompositeHelper.handle(CompositeHelper.java:211)
+	at org.restlet.engine.application.ApplicationHelper.handle(ApplicationHelper.java:84)
+	at org.restlet.Application.handle(Application.java:384)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Router.doHandle(Router.java:431)
+	at org.restlet.routing.Router.handle(Router.java:648)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Router.doHandle(Router.java:431)
+	at org.restlet.routing.Router.handle(Router.java:648)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.engine.CompositeHelper.handle(CompositeHelper.java:211)
+	at org.restlet.Component.handle(Component.java:406)
+	at org.restlet.Server.handle(Server.java:516)
+	at org.restlet.engine.connector.ServerHelper.handle(ServerHelper.java:72)
+	at org.restlet.engine.adapter.HttpServerHelper.handle(HttpServerHelper.java:152)
+	at org.restlet.ext.servlet.ServerServlet.service(ServerServlet.java:1118)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:616)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1132)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1539)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1495)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at org.apache.tomcat.util.codec.binary.BaseNCodec.decode(BaseNCodec.java:398)
+	at org.apache.tomcat.util.codec.binary.BaseNCodec.decode(BaseNCodec.java:386)
+	at org.apache.tomcat.util.codec.binary.Base64.decodeBase64(Base64.java:675)
+	at com.fincons.token.utils.RSACryptService.decrypt(RSACryptService.java:45)
+	at com.fincons.token.restlet.GenerateTokenResource.generateToken(GenerateTokenResource.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.restlet.resource.ServerResource.doHandle(ServerResource.java:521)
+	... 60 more
+
+18-Jan-2018 11:44:38.286 INFO [http-nio-8443-exec-8] org.restlet.engine.log.LogFilter.afterHandle 2018-01-18	11:44:38	172.21.0.1	-	172.21.0.2	8443	POST	/Token_Service_Excel/generateToken	-	500	486	0	94	https://tomcat-ogjira.example.com:8443	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)	-
+18-Jan-2018 11:46:23.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.48
+18-Jan-2018 11:46:23.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 30 2017 16:26:50 UTC
+18-Jan-2018 11:46:23.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.48.0
+18-Jan-2018 11:46:23.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jan-2018 11:46:23.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.60-linuxkit-aufs
+18-Jan-2018 11:46:23.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jan-2018 11:46:23.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/bitnami/java
+18-Jan-2018 11:46:23.127 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+18-Jan-2018 11:46:23.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Jan-2018 11:46:23.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/bitnami/tomcat
+18-Jan-2018 11:46:23.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/bitnami/tomcat
+18-Jan-2018 11:46:23.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/bitnami/tomcat/conf/logging.properties
+18-Jan-2018 11:46:23.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jan-2018 11:46:23.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+18-Jan-2018 11:46:23.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+18-Jan-2018 11:46:23.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Jan-2018 11:46:23.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jan-2018 11:46:23.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jan-2018 11:46:23.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Jan-2018 11:46:23.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/bitnami/tomcat
+18-Jan-2018 11:46:23.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/bitnami/tomcat
+18-Jan-2018 11:46:23.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/bitnami/tomcat/temp
+18-Jan-2018 11:46:23.144 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+18-Jan-2018 11:46:23.533 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 11:46:23.571 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 11:46:23.577 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 11:46:24.232 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 11:46:24.234 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 11:46:24.235 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 11:46:24.237 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2161 ms
+18-Jan-2018 11:46:24.290 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Jan-2018 11:46:24.291 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.48
+18-Jan-2018 11:46:24.389 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/oslc4bugzilla.war
+18-Jan-2018 11:46:33.247 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+bugzilla_uri: http://bzweb:80
+admin: admin@example.com
+log4j:WARN No appenders could be found for logger (com.hp.hpl.jena.util.FileManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+18-Jan-2018 11:46:40.021 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/oslc4bugzilla.war has finished in 15,630 ms
+18-Jan-2018 11:46:40.031 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/Token_Service_Excel.war
+18-Jan-2018 11:46:42.812 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Jan-2018 11:46:42.843 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/Token_Service_Excel.war has finished in 2,812 ms
+18-Jan-2018 11:46:42.849 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/docs
+18-Jan-2018 11:46:42.916 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/docs has finished in 67 ms
+18-Jan-2018 11:46:42.917 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/examples
+18-Jan-2018 11:46:43.998 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/examples has finished in 1,081 ms
+18-Jan-2018 11:46:43.999 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/host-manager
+18-Jan-2018 11:46:44.100 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/host-manager has finished in 100 ms
+18-Jan-2018 11:46:44.101 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/manager
+18-Jan-2018 11:46:44.167 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/manager has finished in 66 ms
+18-Jan-2018 11:46:44.168 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/ROOT
+18-Jan-2018 11:46:44.228 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/ROOT has finished in 60 ms
+18-Jan-2018 11:46:44.245 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 11:46:44.263 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 11:46:44.270 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 11:46:44.282 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 20045 ms
+18-Jan-2018 11:56:54.430 INFO [http-nio-8443-exec-4] org.restlet.engine.connector.HttpClientHelper.start Starting the internal HTTP client
+18-Jan-2018 11:56:54.430 INFO [http-nio-8443-exec-4] org.restlet.engine.connector.HttpClientHelper.start Starting the internal HTTP client
+2018-01-18 11:56:55 INFO  TokenServiceRestletApplication:24 - Created and returned the Restlet Context with url-resource association...
+2018-01-18 11:56:55 INFO  GenerateTokenResource:28 - Called generate Token method with parameters: null
+2018-01-18 11:56:55 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 11:56:55 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 11:56:55 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 11:56:55 INFO  PropertiesHelper:17 - Loading configuration parameters...
+2018-01-18 11:56:55 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 11:56:55 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 11:56:55 INFO  RSACryptService:120 - Private Key reading OK
+18-Jan-2018 11:56:55.515 WARNING [http-nio-8443-exec-4] org.restlet.resource.ServerResource.doCatch Exception or error caught in server resource
+ Internal Server Error (500) - The server encountered an unexpected condition which prevented it from fulfilling the request
+	at org.restlet.resource.ServerResource.doHandle(ServerResource.java:540)
+	at org.restlet.resource.ServerResource.post(ServerResource.java:1346)
+	at org.restlet.resource.ServerResource.doHandle(ServerResource.java:621)
+	at org.restlet.resource.ServerResource.doNegotiatedHandle(ServerResource.java:679)
+	at org.restlet.resource.ServerResource.doConditionalHandle(ServerResource.java:357)
+	at org.restlet.resource.ServerResource.handle(ServerResource.java:1014)
+	at org.restlet.resource.Finder.handle(Finder.java:246)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Router.doHandle(Router.java:431)
+	at org.restlet.routing.Router.handle(Router.java:648)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.engine.application.StatusFilter.doHandle(StatusFilter.java:155)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.engine.CompositeHelper.handle(CompositeHelper.java:211)
+	at org.restlet.engine.application.ApplicationHelper.handle(ApplicationHelper.java:84)
+	at org.restlet.Application.handle(Application.java:384)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Router.doHandle(Router.java:431)
+	at org.restlet.routing.Router.handle(Router.java:648)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.routing.Router.doHandle(Router.java:431)
+	at org.restlet.routing.Router.handle(Router.java:648)
+	at org.restlet.routing.Filter.doHandle(Filter.java:159)
+	at org.restlet.routing.Filter.handle(Filter.java:206)
+	at org.restlet.engine.CompositeHelper.handle(CompositeHelper.java:211)
+	at org.restlet.Component.handle(Component.java:406)
+	at org.restlet.Server.handle(Server.java:516)
+	at org.restlet.engine.connector.ServerHelper.handle(ServerHelper.java:72)
+	at org.restlet.engine.adapter.HttpServerHelper.handle(HttpServerHelper.java:152)
+	at org.restlet.ext.servlet.ServerServlet.service(ServerServlet.java:1118)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:616)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1132)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1539)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1495)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at org.apache.tomcat.util.codec.binary.BaseNCodec.decode(BaseNCodec.java:398)
+	at org.apache.tomcat.util.codec.binary.BaseNCodec.decode(BaseNCodec.java:386)
+	at org.apache.tomcat.util.codec.binary.Base64.decodeBase64(Base64.java:675)
+	at com.fincons.token.utils.RSACryptService.decrypt(RSACryptService.java:45)
+	at com.fincons.token.restlet.GenerateTokenResource.generateToken(GenerateTokenResource.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.restlet.resource.ServerResource.doHandle(ServerResource.java:521)
+	... 60 more
+
+18-Jan-2018 11:56:55.564 INFO [http-nio-8443-exec-4] org.restlet.engine.log.LogFilter.afterHandle 2018-01-18	11:56:55	172.21.0.1	-	172.21.0.3	8443	POST	/Token_Service_Excel/generateToken	-	500	486	0	465	https://tomcat-ogjira.example.com:8443	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)	-
+2018-01-18 12:00:23 INFO  GenerateTokenResource:28 - Called generate Token method with parameters: H/god24CI4YMNieqLZwwyOtY2AwucG4t5xWoP3QSrXmBnzb+WA0YkhVzwdc/dnqgeYn6wJbXkX1s/UEFABaambxvtgMvM1OYkdllyGlZUQWKQ7hCNYtq6SwYas9THICDu6hzL+oZk1Qgmjh4lfE3xDhpxijAnwvvqffWaTwscU28KwNBSRpswp8/Ptnn8oUvJSv6fyzOQEDzI6mjNU9fFKj1I4fTFMz/+K7wCuzFTlWFwvDJf3BZ/le+HMz22oKyYEONM8zgcyj0sjMNkEXJQARPL0N8/HpBBqJLl+8Oxn3J8hGXnFHJAoYpR3LkTI95jqvXGZfib9+8kBA2nwpTvQ==
+2018-01-18 12:00:23 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 12:00:23 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 12:00:23 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 12:00:23 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 12:00:23 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 12:00:23 INFO  RSACryptService:120 - Private Key reading OK
+2018-01-18 12:00:23 INFO  RSACryptService:57 - RSA decryption OK
+2018-01-18 12:00:23 INFO  GenerateTokenResource:43 - Timestamp request 18/01/2018 12:00:23
+2018-01-18 12:00:23 INFO  GenerateTokenResource:48 - New Timestamp generated 18/01/2018 12:00:23
+2018-01-18 12:00:23 INFO  GenerateTokenResource:49 - Expiration time of the request: 18/01/2018 12:01:23
+2018-01-18 12:00:23 INFO  GenerateTokenResource:52 - Time validation OK
+2018-01-18 12:00:23 INFO  GenerateTokenResource:60 - New Token generation OK
+2018-01-18 12:00:23 INFO  RSACryptService:24 - Start RSA encryption of the new Token...
+2018-01-18 12:00:23 INFO  RSACryptService:62 - Get public key from the certificate
+2018-01-18 12:00:23 INFO  RSACryptService:81 - Public Key reading OK
+2018-01-18 12:00:23 INFO  RSACryptService:37 - RSA encryption OK
+2018-01-18 12:00:23 INFO  AESencrp:22 - Start AES encryption...
+2018-01-18 12:00:23 INFO  AESencrp:37 - AES Encryption OK
+2018-01-18 12:00:23 INFO  GenerateTokenResource:66 - Json response {"Token": "Djq4IiHxNstT7vrGOKFwmgiYgCogh24GXo2z8RZ+TRuS+AxLEXqn13AemuXlEyJ0SucH7D69CbfFyksk2VRw6rrJ1UVsaD8LzFOc1iksln21y9guV3/XuryBHfnJ2IXuDpXTb8NeoXUTtX8cbGvW6t4spqCW9wJJRHVSMwexj5JVuvPs519NcimAT/z8cmpkmt+hLMPy3nErcC3o/IcgmL8asJ5xpENf0Ou0bqTUEdi3U+j0rvyI/eQPsysZAFV90vijMp4QjFWK1iKvsjrMaSvuIhH3BQsjz9gNFfr8xb3iZGNCavSRuTQYTN/6KSk40G6faS7tMSWIIs6zb4NM4J6XswNKzrhxAuTMF1ZrLjK2Jgc/wxmSp8g6xly15nDSnsnG/VFK58hWNjEDhp12IOtqThxMutNOckD9EqnrsHb5FdbE9NTgHoLabKh1aPm8clcpnJu4as0KtOKxRc4hxg=="}
+18-Jan-2018 12:00:23.898 INFO [http-nio-8443-exec-8] org.restlet.engine.log.LogFilter.afterHandle 2018-01-18	12:00:23	172.21.0.1	-	172.21.0.3	8443	POST	/Token_Service_Excel/generateToken	-	202	-	344	327	https://tomcat-ogjira.example.com:8443	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)	-
+2018-01-18 13:21:56 INFO  GenerateTokenResource:28 - Called generate Token method with parameters: UPqvwCgLP3QqRyTS61MyIsaicWgG/aFGvUdHsk1q6+pYDqF7tppRt1y7Lyo650hCqXnfNvbv4jMHyVB11KXGD/dMZNQv06hvU4jEIx18QwKgjxjgw1J9YMe15H3QyE3HP7JYSNhCd3+pX3E/28PZspWM7mT0OHsAypK/JEjo/RXaWg9MLZ1gSSf0Q/Qzn4y0aAoyGbMMqNorUCjhZigAGTvkSoyI5NaTilsExTlpCPEtJkAK6kPFTO1Lndh6jcn0m4+hh/5rtZT7SuCp1X1LaK8r5pdX/6Sf9wbsAiCE1VX5w2Tz7dmm8dlqgUUFNsl/tPsLwnMEtGj/Djr/ZHw4QA==
+2018-01-18 13:21:56 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 13:21:56 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 13:21:56 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 13:21:56 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 13:21:56 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 13:21:56 INFO  RSACryptService:120 - Private Key reading OK
+2018-01-18 13:21:56 INFO  RSACryptService:57 - RSA decryption OK
+2018-01-18 13:21:56 INFO  GenerateTokenResource:43 - Timestamp request 18/01/2018 13:21:55
+2018-01-18 13:21:56 INFO  GenerateTokenResource:48 - New Timestamp generated 18/01/2018 13:21:56
+2018-01-18 13:21:56 INFO  GenerateTokenResource:49 - Expiration time of the request: 18/01/2018 13:22:55
+2018-01-18 13:21:56 INFO  GenerateTokenResource:52 - Time validation OK
+2018-01-18 13:21:56 INFO  GenerateTokenResource:60 - New Token generation OK
+2018-01-18 13:21:56 INFO  RSACryptService:24 - Start RSA encryption of the new Token...
+2018-01-18 13:21:56 INFO  RSACryptService:62 - Get public key from the certificate
+2018-01-18 13:21:56 INFO  RSACryptService:81 - Public Key reading OK
+2018-01-18 13:21:56 INFO  RSACryptService:37 - RSA encryption OK
+2018-01-18 13:21:56 INFO  AESencrp:22 - Start AES encryption...
+2018-01-18 13:21:56 INFO  AESencrp:37 - AES Encryption OK
+2018-01-18 13:21:56 INFO  GenerateTokenResource:66 - Json response {"Token": "X+x+Fb7G+cd8lxrNMbgoPtCHnUcY+lpH0pApnmzPhX+/ALXAMFv4QqJNV1c8W3elbxNXM3WtGuk7OFykiTzP4iGt+Je8DoaFvcQxpQycwsFTiCFB6YwGTVnH9t5Bt1ky48KZ9OhYyGThWruUS6mQJYITST5EhD2+UqjvzWPJUk8O7BjMa0KGVAlZwnlK9cVxqbZwHUofybJxee59gwtG7T+B60t9dya2QbqGNeOWHIIddChYbuvnl3bWr0nWGoM/hWT0dHFEfYGg4ntVaosBmaywR9qK34dt177EU7wYmm35c3fSej4VFyZuZ2OoXV65xK1EipUbfhWXxOFj1OOzY1nk7oT5U5+FBkqX7LrjbMO8XVmAQCC2XcLy7mbDh8Jwr/ebKAypsSpe0A/Dq33xSjBhZgAS/KZkre1ZzNPNc2FomYA8Ymh21urafgxw8lZjaWOPgUThi+b1OstpPIEhAA=="}
+18-Jan-2018 13:21:56.314 INFO [http-nio-8443-exec-2] org.restlet.engine.log.LogFilter.afterHandle 2018-01-18	13:21:56	172.21.0.1	-	172.21.0.3	8443	POST	/Token_Service_Excel/generateToken	-	202	-	344	87	https://tomcat-ogjira.example.com:8443	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)	-
+2018-01-18 13:34:21 INFO  GenerateTokenResource:28 - Called generate Token method with parameters: IHTExS5BKDL/ed5YlYJfl/gQLyKoOMuVCkDsblUgQWw1PGnYlQCDdnQBsQxtOk2dg2iT+c8q/7beqZqm5CQnzv4mJmlUajVuriN1sLIXEg0VlwQKyyqiagVLwEO26ooS3egnoRCt6zTmcNELcdiJSJM8C/lNLZ4S2fLBQ+BFsUl+/3njwol6MwOkMQClYmOKTiH9GJipKbsvGI8CJs1/24Osd1ywiC9SB9xASLpf3JE4k+Y08B1bE3xwVmsUA+rlScN/o2iHfK71zfIPpDlPT1+JhVI/SGFSD71yAKlazArbsdTC0EraZKuSAPEz6BDm0MfCmDV57DNFWPjnbSFE+A==
+2018-01-18 13:34:21 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 13:34:21 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 13:34:21 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 13:34:21 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 13:34:21 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 13:34:21 INFO  RSACryptService:120 - Private Key reading OK
+2018-01-18 13:34:21 INFO  RSACryptService:57 - RSA decryption OK
+2018-01-18 13:34:21 INFO  GenerateTokenResource:43 - Timestamp request 18/01/2018 13:34:21
+2018-01-18 13:34:21 INFO  GenerateTokenResource:48 - New Timestamp generated 18/01/2018 13:34:21
+2018-01-18 13:34:21 INFO  GenerateTokenResource:49 - Expiration time of the request: 18/01/2018 13:35:21
+2018-01-18 13:34:22 INFO  GenerateTokenResource:52 - Time validation OK
+2018-01-18 13:34:22 INFO  GenerateTokenResource:60 - New Token generation OK
+2018-01-18 13:34:22 INFO  RSACryptService:24 - Start RSA encryption of the new Token...
+2018-01-18 13:34:22 INFO  RSACryptService:62 - Get public key from the certificate
+2018-01-18 13:34:22 INFO  RSACryptService:81 - Public Key reading OK
+2018-01-18 13:34:22 INFO  RSACryptService:37 - RSA encryption OK
+2018-01-18 13:34:22 INFO  AESencrp:22 - Start AES encryption...
+2018-01-18 13:34:22 INFO  AESencrp:37 - AES Encryption OK
+2018-01-18 13:34:22 INFO  GenerateTokenResource:66 - Json response {"Token": "5jRvBnuq9jwb7zyJA1zUWFS+lSo1jt6DpP5JuwQqwprWWoU1rAQVQbOfhzc/ggVyAAYKfOxwPzR+3O0EKk1swI6HCnlMl9tpIIx77iAPWlQurrgX4Ro5YLWdTnTfdqqjaFO29rnRH7WTBaP05OLommLwxzaGFQSpNxvBkNNUjd/hRp5u/dtstZZn8GJKWNgHNtoJi6AoY2w117NtdIjlXhrs/8S/hxwVRbLIL1RiUU2GBaSYfuBVy+z/EBBY33zzRB3EMjgTFEX1WtfcHbNX17pE3DPDGCzWJg+thALF40m9hvlJX0OANvloQJIxdv9tiz33Qw0kQMLKQqRRy71TnfTBUDGY6kVrDd1rsiogpw3li7YC22zOG3gvTTBN179ngx7+rGmKaHiW3RX45K3Z5XBN6TKqyzrr4dQGIJ8nAqQuJyMeVnAet6JoTqlT7vWiUr9zcf+Ou0y1QD4hRRUPew=="}
+18-Jan-2018 13:34:22.033 INFO [http-nio-8443-exec-7] org.restlet.engine.log.LogFilter.afterHandle 2018-01-18	13:34:22	172.21.0.1	-	172.21.0.3	8443	POST	/Token_Service_Excel/generateToken	-	202	-	344	103	https://tomcat-ogjira.example.com:8443	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)	-
+18-Jan-2018 13:36:27.253 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Jan-2018 13:36:27.254 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 13:36:27.306 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 13:36:27.357 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 13:36:27.407 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+18-Jan-2018 13:36:27.504 INFO [localhost-startStop-2] org.restlet.engine.connector.HttpClientHelper.stop Stopping the internal HTTP client
+18-Jan-2018 13:36:27.506 INFO [localhost-startStop-2] org.restlet.engine.connector.HttpClientHelper.stop Stopping the internal HTTP client
+18-Jan-2018 13:36:27.587 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 13:36:27.590 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 13:36:27.667 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 13:36:27.669 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 13:36:27.670 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 13:36:27.671 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 13:56:25.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.48
+18-Jan-2018 13:56:25.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 30 2017 16:26:50 UTC
+18-Jan-2018 13:56:25.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.48.0
+18-Jan-2018 13:56:25.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jan-2018 13:56:25.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.60-linuxkit-aufs
+18-Jan-2018 13:56:25.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jan-2018 13:56:25.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/bitnami/java
+18-Jan-2018 13:56:25.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+18-Jan-2018 13:56:25.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Jan-2018 13:56:25.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/bitnami/tomcat
+18-Jan-2018 13:56:25.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/bitnami/tomcat
+18-Jan-2018 13:56:25.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/bitnami/tomcat/conf/logging.properties
+18-Jan-2018 13:56:25.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jan-2018 13:56:25.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+18-Jan-2018 13:56:25.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+18-Jan-2018 13:56:25.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Jan-2018 13:56:25.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jan-2018 13:56:25.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jan-2018 13:56:25.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Jan-2018 13:56:25.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/bitnami/tomcat
+18-Jan-2018 13:56:25.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/bitnami/tomcat
+18-Jan-2018 13:56:25.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/bitnami/tomcat/temp
+18-Jan-2018 13:56:25.307 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+18-Jan-2018 13:56:25.791 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 13:56:25.827 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 13:56:25.832 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 13:56:26.465 SEVERE [main] org.apache.tomcat.util.net.jsse.JSSESocketFactory.getStore Failed to load keystore type JKS with path /bitnami/tomcat/conf/certs/ogjirakeystore.jks due to /bitnami/tomcat/conf/certs/ogjirakeystore.jks (No such file or directory)
+ java.io.FileNotFoundException: /bitnami/tomcat/conf/certs/ogjirakeystore.jks (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at org.apache.tomcat.util.file.ConfigFileLoader.getInputStream(ConfigFileLoader.java:96)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getStore(JSSESocketFactory.java:442)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeystore(JSSESocketFactory.java:353)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:606)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:546)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:370)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:823)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:476)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:120)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:960)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:568)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:871)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:581)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:604)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:308)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:482)
+
+18-Jan-2018 13:56:26.467 SEVERE [main] org.apache.coyote.AbstractProtocol.init Failed to initialize end point associated with ProtocolHandler ["http-nio-8443"]
+ java.io.FileNotFoundException: /bitnami/tomcat/conf/certs/ogjirakeystore.jks (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at org.apache.tomcat.util.file.ConfigFileLoader.getInputStream(ConfigFileLoader.java:96)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getStore(JSSESocketFactory.java:442)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeystore(JSSESocketFactory.java:353)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:606)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:546)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:370)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:823)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:476)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:120)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:960)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:568)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:871)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:581)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:604)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:308)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:482)
+
+18-Jan-2018 13:56:26.472 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8443]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8443]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:568)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:871)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:581)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:604)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:308)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:482)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:962)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.io.FileNotFoundException: /bitnami/tomcat/conf/certs/ogjirakeystore.jks (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at org.apache.tomcat.util.file.ConfigFileLoader.getInputStream(ConfigFileLoader.java:96)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getStore(JSSESocketFactory.java:442)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeystore(JSSESocketFactory.java:353)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:606)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:546)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:370)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:823)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:476)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:120)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:960)
+	... 13 more
+
+18-Jan-2018 13:56:26.478 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 13:56:26.500 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 13:56:26.505 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2329 ms
+18-Jan-2018 13:56:26.792 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Jan-2018 13:56:26.792 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.48
+18-Jan-2018 13:56:27.057 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/oslc4bugzilla.war
+18-Jan-2018 13:57:04.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.48
+18-Jan-2018 13:57:04.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 30 2017 16:26:50 UTC
+18-Jan-2018 13:57:04.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.48.0
+18-Jan-2018 13:57:04.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jan-2018 13:57:04.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.60-linuxkit-aufs
+18-Jan-2018 13:57:04.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jan-2018 13:57:04.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/bitnami/java
+18-Jan-2018 13:57:04.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+18-Jan-2018 13:57:04.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Jan-2018 13:57:04.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/bitnami/tomcat
+18-Jan-2018 13:57:04.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/bitnami/tomcat
+18-Jan-2018 13:57:04.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/bitnami/tomcat/conf/logging.properties
+18-Jan-2018 13:57:04.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jan-2018 13:57:04.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+18-Jan-2018 13:57:04.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+18-Jan-2018 13:57:04.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Jan-2018 13:57:04.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jan-2018 13:57:04.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jan-2018 13:57:04.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Jan-2018 13:57:04.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/bitnami/tomcat
+18-Jan-2018 13:57:04.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/bitnami/tomcat
+18-Jan-2018 13:57:04.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/bitnami/tomcat/temp
+18-Jan-2018 13:57:04.322 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+18-Jan-2018 13:57:04.788 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 13:57:04.854 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 13:57:04.870 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 13:57:05.683 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 13:57:05.693 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 13:57:05.696 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 13:57:05.697 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2565 ms
+18-Jan-2018 13:57:05.793 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Jan-2018 13:57:05.793 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.48
+18-Jan-2018 13:57:05.920 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/oslc4bugzilla.war
+18-Jan-2018 13:57:17.758 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+bugzilla_uri: http://bzweb:80
+admin: admin@example.com
+log4j:WARN No appenders could be found for logger (com.hp.hpl.jena.util.FileManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+18-Jan-2018 13:57:27.269 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/oslc4bugzilla.war has finished in 21,348 ms
+18-Jan-2018 13:57:27.336 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/Token_Service_Excel.war
+18-Jan-2018 13:57:32.473 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Jan-2018 13:57:32.559 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/Token_Service_Excel.war has finished in 5,223 ms
+18-Jan-2018 13:57:32.564 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/docs
+18-Jan-2018 13:57:32.659 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/docs has finished in 95 ms
+18-Jan-2018 13:57:32.660 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/examples
+18-Jan-2018 13:57:34.634 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/examples has finished in 1,973 ms
+18-Jan-2018 13:57:34.634 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/host-manager
+18-Jan-2018 13:57:34.794 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/host-manager has finished in 160 ms
+18-Jan-2018 13:57:34.794 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/manager
+18-Jan-2018 13:57:34.940 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/manager has finished in 145 ms
+18-Jan-2018 13:57:34.941 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/ROOT
+18-Jan-2018 13:57:35.040 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/ROOT has finished in 99 ms
+18-Jan-2018 13:57:35.049 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 13:57:35.076 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 13:57:35.099 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 13:57:35.123 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 29425 ms
+18-Jan-2018 14:02:12.737 INFO [http-nio-8443-exec-5] org.restlet.engine.connector.HttpClientHelper.start Starting the internal HTTP client
+18-Jan-2018 14:02:12.744 INFO [http-nio-8443-exec-5] org.restlet.engine.connector.HttpClientHelper.start Starting the internal HTTP client
+2018-01-18 14:02:13 INFO  TokenServiceRestletApplication:24 - Created and returned the Restlet Context with url-resource association...
+2018-01-18 14:02:13 INFO  GenerateTokenResource:28 - Called generate Token method with parameters: P2n3bgeHK2Ww2Nvfe4SkidGpQ2GmO7AfPsl7E3GsNUqskzeIHvW66dwR1uYx7I2iCwt2c6TkwkR7rRhflWM60ATRB8cj5+2FedHbiS1F2+yO4xnh6dv5mgcfFJ3v4YN4W0PvAjy7KVe+AGfzM1TefNXGpb1hD8eiXPtGFw19qYZMtS3IVMifjU3D0NLWKsLp296nwsizkpPsgMzbB3r8BfgimaqTiim3+DVsMUCl6+DFO3cnUitRr3tCPL+G5QuU41yXmHrCAUq9zbLBqh8F0mSTJZ5RrpGn58/Ay4oQT3IjyxR336KOxuMtU/P/gIAA3DOEprJf0FSwrVoPVZHMGg==
+2018-01-18 14:02:13 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 14:02:13 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 14:02:13 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 14:02:13 INFO  PropertiesHelper:17 - Loading configuration parameters...
+2018-01-18 14:02:13 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 14:02:13 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 14:02:13 INFO  RSACryptService:120 - Private Key reading OK
+2018-01-18 14:02:13 INFO  RSACryptService:57 - RSA decryption OK
+2018-01-18 14:02:14 INFO  GenerateTokenResource:43 - Timestamp request 18/01/2018 14:02:11
+2018-01-18 14:02:14 INFO  GenerateTokenResource:48 - New Timestamp generated 18/01/2018 14:02:14
+2018-01-18 14:02:14 INFO  GenerateTokenResource:49 - Expiration time of the request: 18/01/2018 14:03:11
+2018-01-18 14:02:14 INFO  GenerateTokenResource:52 - Time validation OK
+2018-01-18 14:02:14 INFO  GenerateTokenResource:60 - New Token generation OK
+2018-01-18 14:02:14 INFO  RSACryptService:24 - Start RSA encryption of the new Token...
+2018-01-18 14:02:14 INFO  RSACryptService:62 - Get public key from the certificate
+2018-01-18 14:02:14 INFO  RSACryptService:81 - Public Key reading OK
+2018-01-18 14:02:14 INFO  RSACryptService:37 - RSA encryption OK
+2018-01-18 14:02:14 INFO  AESencrp:22 - Start AES encryption...
+2018-01-18 14:02:14 INFO  AESencrp:37 - AES Encryption OK
+2018-01-18 14:02:14 INFO  GenerateTokenResource:66 - Json response {"Token": "OtOY67hRiPIaIxswM3egM8JdZjUvnydXQqtwlV2VQ7dBGlDKNrFd2dPw2KuQDZ31ZsozsQw0iVO7tgyGQ/oiog4UwWzyXnrszN8n/7yAhBLm2eiUh2YnwuVkH7PQ4htJJIGINgoWyoTV+TXWc29QH1IQnRrISyB2kxosgMUdwrD1PXXzY/5aKj5UjUSMI9Qt9+HTiKrRDMEvDmvXPIxZK3gszKR0oDPcB5wE61lRaQ6ECSpPxTD239NvkUU4HUFvyof02yIcTCpbL79HhTezEtGeTNwTc6WV/g4xzgNl7zGnpsP1G3fLGegHkU1mhnCBeON7xBqtNO1a6XVjOOULfGkf2KKz01QHEUmE9iVstaoRcaALxfy9KwVfxiL5RSz4Yq9ipEy1RAacSzRbS/+USqWkntAVBWS/ZsRPQYNZqGVqpIaaemqL9cdvr7jYOXmouLPJN607GGoJ3fGYcmm4vA=="}
+18-Jan-2018 14:02:14.200 INFO [http-nio-8443-exec-5] org.restlet.engine.log.LogFilter.afterHandle 2018-01-18	14:02:14	172.21.0.1	-	172.21.0.3	8443	POST	/Token_Service_Excel/generateToken	-	202	-	344	616	https://tomcat-ogjira.example.com:8443	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)	-
+18-Jan-2018 14:12:56.723 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Jan-2018 14:12:56.728 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 14:12:56.782 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 14:12:56.833 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 14:12:56.883 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+18-Jan-2018 14:12:57.032 INFO [localhost-startStop-2] org.restlet.engine.connector.HttpClientHelper.stop Stopping the internal HTTP client
+18-Jan-2018 14:12:57.048 INFO [localhost-startStop-2] org.restlet.engine.connector.HttpClientHelper.stop Stopping the internal HTTP client
+18-Jan-2018 14:12:57.147 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 14:12:57.169 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 14:12:57.222 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 14:12:57.283 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 14:12:57.284 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 14:12:57.286 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 14:13:37.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.48
+18-Jan-2018 14:13:37.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 30 2017 16:26:50 UTC
+18-Jan-2018 14:13:37.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.48.0
+18-Jan-2018 14:13:37.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jan-2018 14:13:37.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.60-linuxkit-aufs
+18-Jan-2018 14:13:37.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jan-2018 14:13:37.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/bitnami/java
+18-Jan-2018 14:13:37.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+18-Jan-2018 14:13:37.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Jan-2018 14:13:37.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/bitnami/tomcat
+18-Jan-2018 14:13:37.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/bitnami/tomcat
+18-Jan-2018 14:13:37.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/bitnami/tomcat/conf/logging.properties
+18-Jan-2018 14:13:37.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jan-2018 14:13:37.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+18-Jan-2018 14:13:37.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+18-Jan-2018 14:13:37.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Jan-2018 14:13:37.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jan-2018 14:13:37.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jan-2018 14:13:37.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Jan-2018 14:13:37.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/bitnami/tomcat
+18-Jan-2018 14:13:37.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/bitnami/tomcat
+18-Jan-2018 14:13:37.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/bitnami/tomcat/temp
+18-Jan-2018 14:13:37.796 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+18-Jan-2018 14:13:38.276 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 14:13:38.324 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 14:13:38.336 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 14:13:39.102 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 14:13:39.103 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 14:13:39.108 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 14:13:39.111 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2735 ms
+18-Jan-2018 14:13:39.218 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Jan-2018 14:13:39.220 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.48
+18-Jan-2018 14:13:39.345 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/oslc4bugzilla.war
+18-Jan-2018 14:13:49.188 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+bugzilla_uri: http://bzweb:80
+admin: admin@example.com
+log4j:WARN No appenders could be found for logger (com.hp.hpl.jena.util.FileManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+18-Jan-2018 14:13:53.972 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/oslc4bugzilla.war has finished in 14,628 ms
+18-Jan-2018 14:13:53.985 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/Token_Service_Excel.war
+18-Jan-2018 14:13:56.330 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Jan-2018 14:13:56.367 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/Token_Service_Excel.war has finished in 2,382 ms
+18-Jan-2018 14:13:56.371 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/docs
+18-Jan-2018 14:13:56.445 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/docs has finished in 74 ms
+18-Jan-2018 14:13:56.445 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/examples
+18-Jan-2018 14:13:57.245 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/examples has finished in 799 ms
+18-Jan-2018 14:13:57.245 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/host-manager
+18-Jan-2018 14:13:57.319 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/host-manager has finished in 74 ms
+18-Jan-2018 14:13:57.319 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/manager
+18-Jan-2018 14:13:57.402 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/manager has finished in 82 ms
+18-Jan-2018 14:13:57.402 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/ROOT
+18-Jan-2018 14:13:57.474 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/ROOT has finished in 71 ms
+18-Jan-2018 14:13:57.490 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 14:13:57.518 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 14:13:57.547 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 14:13:57.588 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 18475 ms
+18-Jan-2018 14:18:35.918 INFO [http-nio-8443-exec-4] org.restlet.engine.connector.HttpClientHelper.start Starting the internal HTTP client
+18-Jan-2018 14:18:35.925 INFO [http-nio-8443-exec-4] org.restlet.engine.connector.HttpClientHelper.start Starting the internal HTTP client
+2018-01-18 14:18:36 INFO  TokenServiceRestletApplication:24 - Created and returned the Restlet Context with url-resource association...
+2018-01-18 14:18:36 INFO  GenerateTokenResource:28 - Called generate Token method with parameters: g/KBL4n6uM5NzJTn3Q7qB/lffK1gqvs+6HDxauneQWGQ0FqrUj/tH3MXIBvJoJOU/EheMWiGYgtzKd5tCMFuIteiiCfQAhFXNUypYgFd/oJa3NBPoJ+DNsRvN/33Dl7oCaM3vw75KS19hpVELgTPtqZFFPw1vbiXVRsonPNQYdDIgdmjHv2xvIoDkg+wrIzP40df+5Zw592iCP1puAB7/nqERbquJtHY8m9e6wE3BBhm1Tj3CAEaQX5OqXcUor/yomuGF6Dbw6DcOegWrnoVzHil7x8AQFFZkgcFdDIPs11hQ4JriVbhTedaloTpy1Dtl+3g3GSHHW6oVV6WCmhPGg==
+2018-01-18 14:18:36 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 14:18:36 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 14:18:36 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 14:18:36 INFO  PropertiesHelper:17 - Loading configuration parameters...
+2018-01-18 14:18:36 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 14:18:36 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 14:18:36 INFO  RSACryptService:120 - Private Key reading OK
+2018-01-18 14:18:36 INFO  RSACryptService:57 - RSA decryption OK
+2018-01-18 14:18:36 INFO  GenerateTokenResource:43 - Timestamp request 18/01/2018 14:18:34
+2018-01-18 14:18:36 INFO  GenerateTokenResource:48 - New Timestamp generated 18/01/2018 14:18:36
+2018-01-18 14:18:36 INFO  GenerateTokenResource:49 - Expiration time of the request: 18/01/2018 14:19:34
+2018-01-18 14:18:36 INFO  GenerateTokenResource:52 - Time validation OK
+2018-01-18 14:18:36 INFO  GenerateTokenResource:60 - New Token generation OK
+2018-01-18 14:18:36 INFO  RSACryptService:24 - Start RSA encryption of the new Token...
+2018-01-18 14:18:36 INFO  RSACryptService:62 - Get public key from the certificate
+2018-01-18 14:18:36 INFO  RSACryptService:81 - Public Key reading OK
+2018-01-18 14:18:36 INFO  RSACryptService:37 - RSA encryption OK
+2018-01-18 14:18:36 INFO  AESencrp:22 - Start AES encryption...
+2018-01-18 14:18:36 INFO  AESencrp:37 - AES Encryption OK
+2018-01-18 14:18:36 INFO  GenerateTokenResource:66 - Json response {"Token": "XpNlWEiYpwzi6tHF+3ELfTBaySRMU4pBur/BjIIGOjW3sTPVzIEBdpJIGHYbaEUyh8wDLvEur/SYwp0vTUtJjDxGcESWwIATMU+Hdbfdxf+hXoPfgcy7q01p371bmyDbbgQ0MTGiUohBQwyJu/fXPgB5LJMrv2A/ciUVErN06e5ka9IRG6lV+YRXxKH2cipLu6PdR4+UUj/q5I7fwlc1JH4crbkUxZhTWp/DLba+K8OwvhuxymawxAHrTFJbtezPqbnwmVKTA16XhfAHq7dPuINxhnnvxnRIa23UkX0WbhnLgCaNCwD6HpMjBWr/Qk1Q4wtSc6Ia4tvLPVvA7AWw9R+iFljdNTR9GLEqWYLRqQ0uGgnc3evV/p1ottKampdf5+PPsAZ+whnoAI0Sw2fPzOoL9gsIODM77g8IzA7SXqUpkSSZSDYxcUEv8OmijnJSqI4oettMaMCq+uAYMd2jmQ=="}
+18-Jan-2018 14:18:36.743 INFO [http-nio-8443-exec-4] org.restlet.engine.log.LogFilter.afterHandle 2018-01-18	14:18:36	172.21.0.1	-	172.21.0.2	8443	POST	/Token_Service_Excel/generateToken	-	202	-	344	362	https://tomcat-ogjira.example.com:8443	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)	-
+18-Jan-2018 14:39:32.994 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Jan-2018 14:39:32.995 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 14:39:33.048 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 14:39:33.048 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 14:39:33.099 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+18-Jan-2018 14:39:33.204 INFO [localhost-startStop-2] org.restlet.engine.connector.HttpClientHelper.stop Stopping the internal HTTP client
+18-Jan-2018 14:39:33.223 INFO [localhost-startStop-2] org.restlet.engine.connector.HttpClientHelper.stop Stopping the internal HTTP client
+18-Jan-2018 14:39:33.269 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 14:39:33.374 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 14:39:33.375 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 14:39:33.471 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 14:39:33.472 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 14:39:33.473 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 14:40:11.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.48
+18-Jan-2018 14:40:11.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 30 2017 16:26:50 UTC
+18-Jan-2018 14:40:11.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.48.0
+18-Jan-2018 14:40:11.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jan-2018 14:40:11.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.60-linuxkit-aufs
+18-Jan-2018 14:40:11.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jan-2018 14:40:11.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/bitnami/java
+18-Jan-2018 14:40:11.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+18-Jan-2018 14:40:11.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Jan-2018 14:40:11.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/bitnami/tomcat
+18-Jan-2018 14:40:11.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/bitnami/tomcat
+18-Jan-2018 14:40:11.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/bitnami/tomcat/conf/logging.properties
+18-Jan-2018 14:40:11.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jan-2018 14:40:11.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+18-Jan-2018 14:40:11.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+18-Jan-2018 14:40:11.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Jan-2018 14:40:11.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jan-2018 14:40:11.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jan-2018 14:40:11.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Jan-2018 14:40:11.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/bitnami/tomcat
+18-Jan-2018 14:40:11.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/bitnami/tomcat
+18-Jan-2018 14:40:11.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/bitnami/tomcat/temp
+18-Jan-2018 14:40:11.427 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+18-Jan-2018 14:40:11.861 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 14:40:11.917 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 14:40:11.931 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 14:40:12.631 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 14:40:12.637 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 14:40:12.643 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 14:40:12.648 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2423 ms
+18-Jan-2018 14:40:12.762 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Jan-2018 14:40:12.763 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.48
+18-Jan-2018 14:40:12.916 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/oslc4bugzilla.war
+18-Jan-2018 14:40:22.607 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+bugzilla_uri: http://bzweb:80
+admin: admin@example.com
+log4j:WARN No appenders could be found for logger (com.hp.hpl.jena.util.FileManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+18-Jan-2018 14:40:28.774 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/oslc4bugzilla.war has finished in 15,857 ms
+18-Jan-2018 14:40:28.814 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/Token_Service_Excel.war
+18-Jan-2018 14:40:39.265 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Jan-2018 14:40:39.366 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/Token_Service_Excel.war has finished in 10,553 ms
+18-Jan-2018 14:40:39.378 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/docs
+18-Jan-2018 14:40:39.568 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/docs has finished in 190 ms
+18-Jan-2018 14:40:39.569 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/examples
+18-Jan-2018 14:40:44.088 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/examples has finished in 4,518 ms
+18-Jan-2018 14:40:44.089 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/host-manager
+18-Jan-2018 14:40:44.306 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/host-manager has finished in 214 ms
+18-Jan-2018 14:40:44.306 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/manager
+18-Jan-2018 14:40:44.567 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/manager has finished in 261 ms
+18-Jan-2018 14:40:44.573 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/ROOT
+18-Jan-2018 14:40:44.653 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/ROOT has finished in 81 ms
+18-Jan-2018 14:40:44.666 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 14:40:44.745 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 14:40:44.754 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 14:40:44.759 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 32112 ms
+18-Jan-2018 14:45:48.733 INFO [http-nio-8443-exec-4] org.restlet.engine.connector.HttpClientHelper.start Starting the internal HTTP client
+18-Jan-2018 14:45:48.734 INFO [http-nio-8443-exec-4] org.restlet.engine.connector.HttpClientHelper.start Starting the internal HTTP client
+2018-01-18 14:45:49 INFO  TokenServiceRestletApplication:24 - Created and returned the Restlet Context with url-resource association...
+2018-01-18 14:45:49 INFO  GenerateTokenResource:28 - Called generate Token method with parameters: D7WT1Kneiq9hEjcuwGIFiAnDWsm5bt0NWqTeOnGvwDCE/qXGkYiC8oPxebaNtOl5coXLpoyX7UPy0edmifZgNJxtgojnmx3zDTtn0ADop1fW91mxu9Kfi/YWhWD+pAW0PBAWgYNpulZCI1ciegxPEP2yy085PtkfP4Plqc1v+edoRiaYts7WNAddR8Qt+hnBg6CQpOs1jGvxTEP1ct2JsTNwfcgolaYDQVWMh7fZZ+3lkX8K7+ZPDImfLguSRnLf2g+Ml/9ctzGy46S7uCx1DeUPol29fZatnMrs9GqeweKnyCFJwzVXDGvhtX1yMptOGdwok/+xVgQOs196uAe9oA==
+2018-01-18 14:45:49 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 14:45:49 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 14:45:49 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 14:45:49 INFO  PropertiesHelper:17 - Loading configuration parameters...
+2018-01-18 14:45:49 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 14:45:49 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 14:45:49 INFO  RSACryptService:120 - Private Key reading OK
+2018-01-18 14:45:49 INFO  RSACryptService:57 - RSA decryption OK
+2018-01-18 14:45:49 INFO  GenerateTokenResource:43 - Timestamp request 18/01/2018 14:45:48
+2018-01-18 14:45:49 INFO  GenerateTokenResource:48 - New Timestamp generated 18/01/2018 14:45:49
+2018-01-18 14:45:49 INFO  GenerateTokenResource:49 - Expiration time of the request: 18/01/2018 14:46:48
+2018-01-18 14:45:49 INFO  GenerateTokenResource:52 - Time validation OK
+2018-01-18 14:45:49 INFO  GenerateTokenResource:60 - New Token generation OK
+2018-01-18 14:45:49 INFO  RSACryptService:24 - Start RSA encryption of the new Token...
+2018-01-18 14:45:49 INFO  RSACryptService:62 - Get public key from the certificate
+2018-01-18 14:45:49 INFO  RSACryptService:81 - Public Key reading OK
+2018-01-18 14:45:49 INFO  RSACryptService:37 - RSA encryption OK
+2018-01-18 14:45:49 INFO  AESencrp:22 - Start AES encryption...
+2018-01-18 14:45:49 INFO  AESencrp:37 - AES Encryption OK
+2018-01-18 14:45:49 INFO  GenerateTokenResource:66 - Json response {"Token": "Z9nFs34PUnRz7S9JDD5e/sQZgzV2kSQ37YxJaggnP+nuXO9Br+Vqs5a9XlphFM7AfJvVv2EHLu9ipqyHPgrlOFToI/voLTC1vARe7/4nLjtUIGRLU31fN9jd/HGsLXE93xJPw+Dkb1diuh/kVecij++yCLSqlHsJxcniIYryx3ixve0Pi/rgi4l8PlCVPGoY4REIpBKtbtqCSwxwwFy2kwC68EwTJvggdOYnOpDm3LFSziYpgsAWOxep/j3jb2qeVqhc7htWvfnQIQjSnnLCrzcVbAFwuhdPYi18jZi1qbHCIVS5FJ7a6k1KGUS+3RbpLzvQ/WNZljGJURnwEE/rCDtUQsImuCwtzTCCYA/uZDPrfEODIifYjzddFbNMJiymZZ9gUCoZAQq/DAqJMw8P6+c8YU9KHMAVI5SZKz8ak84R9m+0STzIwO7oHmjspC7bgv9Ps2WZpbyz/YFuym+E0w=="}
+18-Jan-2018 14:45:49.411 INFO [http-nio-8443-exec-4] org.restlet.engine.log.LogFilter.afterHandle 2018-01-18	14:45:49	172.21.0.1	-	172.21.0.3	8443	POST	/Token_Service_Excel/generateToken	-	202	-	344	304	https://tomcat-ogjira.example.com:8443	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)	-
+18-Jan-2018 14:49:51.454 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Jan-2018 14:49:51.454 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 14:49:51.521 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 14:49:51.571 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 14:49:51.622 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+18-Jan-2018 14:49:51.723 INFO [localhost-startStop-2] org.restlet.engine.connector.HttpClientHelper.stop Stopping the internal HTTP client
+18-Jan-2018 14:49:51.724 INFO [localhost-startStop-2] org.restlet.engine.connector.HttpClientHelper.stop Stopping the internal HTTP client
+18-Jan-2018 14:49:51.780 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 14:49:51.784 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 14:49:51.820 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 14:49:51.822 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 14:49:51.823 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 14:49:51.823 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 14:50:29.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.48
+18-Jan-2018 14:50:30.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 30 2017 16:26:50 UTC
+18-Jan-2018 14:50:30.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.48.0
+18-Jan-2018 14:50:30.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jan-2018 14:50:30.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.60-linuxkit-aufs
+18-Jan-2018 14:50:30.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jan-2018 14:50:30.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/bitnami/java
+18-Jan-2018 14:50:30.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+18-Jan-2018 14:50:30.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Jan-2018 14:50:30.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/bitnami/tomcat
+18-Jan-2018 14:50:30.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/bitnami/tomcat
+18-Jan-2018 14:50:30.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/bitnami/tomcat/conf/logging.properties
+18-Jan-2018 14:50:30.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jan-2018 14:50:30.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+18-Jan-2018 14:50:30.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+18-Jan-2018 14:50:30.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Jan-2018 14:50:30.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jan-2018 14:50:30.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jan-2018 14:50:30.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Jan-2018 14:50:30.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/bitnami/tomcat
+18-Jan-2018 14:50:30.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/bitnami/tomcat
+18-Jan-2018 14:50:30.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/bitnami/tomcat/temp
+18-Jan-2018 14:50:30.045 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+18-Jan-2018 14:50:30.537 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 14:50:30.604 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 14:50:30.626 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 14:50:31.485 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 14:50:31.486 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 14:50:31.492 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 14:50:31.493 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3092 ms
+18-Jan-2018 14:50:31.596 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Jan-2018 14:50:31.596 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.48
+18-Jan-2018 14:50:31.679 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/oslc4bugzilla.war
+18-Jan-2018 14:50:44.593 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+bugzilla_uri: http://bzweb:80
+admin: admin@example.com
+log4j:WARN No appenders could be found for logger (com.hp.hpl.jena.util.FileManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+18-Jan-2018 14:50:52.738 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/oslc4bugzilla.war has finished in 21,059 ms
+18-Jan-2018 14:50:52.786 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/Token_Service_Excel.war
+18-Jan-2018 14:50:56.722 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Jan-2018 14:50:56.768 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/Token_Service_Excel.war has finished in 3,982 ms
+18-Jan-2018 14:50:56.806 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/docs
+18-Jan-2018 14:50:56.926 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/docs has finished in 120 ms
+18-Jan-2018 14:50:56.927 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/examples
+18-Jan-2018 14:50:58.144 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/examples has finished in 1,217 ms
+18-Jan-2018 14:50:58.145 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/host-manager
+18-Jan-2018 14:50:58.244 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/host-manager has finished in 99 ms
+18-Jan-2018 14:50:58.244 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/manager
+18-Jan-2018 14:50:58.337 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/manager has finished in 93 ms
+18-Jan-2018 14:50:58.338 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/ROOT
+18-Jan-2018 14:50:58.385 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/ROOT has finished in 47 ms
+18-Jan-2018 14:50:58.415 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 14:50:58.443 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 14:50:58.461 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 14:50:58.468 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 26975 ms
+18-Jan-2018 14:54:13.697 INFO [http-nio-8443-exec-4] org.restlet.engine.connector.HttpClientHelper.start Starting the internal HTTP client
+18-Jan-2018 14:54:13.697 INFO [http-nio-8443-exec-4] org.restlet.engine.connector.HttpClientHelper.start Starting the internal HTTP client
+2018-01-18 14:54:14 INFO  TokenServiceRestletApplication:24 - Created and returned the Restlet Context with url-resource association...
+2018-01-18 14:54:14 INFO  GenerateTokenResource:28 - Called generate Token method with parameters: Ic4qtr7cm1oUA5ue9cWtCHZufqFiCDKv8yEdIpxQB2a9NsU3LcDWExR9hfB9P15H1t1zO0XnwqxKv5G+PyT7pEi8p0JmdTGE2cD6L9GX35MNTkDHmcLg0PinID5vnl2zgUdnStoPrqzGKAMozRCtFbzg/cuj8mBVbf12yvtn9u3wdmDKcxun48NwZ0vjvPRbTwrbxYWIdJlfQ4Webze2gu8nKe6wD73UDSmqh4ju+Od8hzAKvPkyG2RsdUelblFd1acJXEpcMZInnM3viZb3kd7lka8a+nRSIKCO2P21XerOpdTVm/L0yZ43O3Ut+UlTOlPUUsbUtDVJHdeRrItzYg==
+2018-01-18 14:54:14 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 14:54:14 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 14:54:14 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 14:54:14 INFO  PropertiesHelper:17 - Loading configuration parameters...
+2018-01-18 14:54:14 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 14:54:14 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 14:54:14 INFO  RSACryptService:120 - Private Key reading OK
+2018-01-18 14:54:14 INFO  RSACryptService:57 - RSA decryption OK
+2018-01-18 14:54:14 INFO  GenerateTokenResource:43 - Timestamp request 18/01/2018 14:54:12
+2018-01-18 14:54:14 INFO  GenerateTokenResource:48 - New Timestamp generated 18/01/2018 14:54:14
+2018-01-18 14:54:14 INFO  GenerateTokenResource:49 - Expiration time of the request: 18/01/2018 14:55:12
+2018-01-18 14:54:14 INFO  GenerateTokenResource:52 - Time validation OK
+2018-01-18 14:54:14 INFO  GenerateTokenResource:60 - New Token generation OK
+2018-01-18 14:54:14 INFO  RSACryptService:24 - Start RSA encryption of the new Token...
+2018-01-18 14:54:14 INFO  RSACryptService:62 - Get public key from the certificate
+2018-01-18 14:54:14 INFO  RSACryptService:81 - Public Key reading OK
+2018-01-18 14:54:14 INFO  RSACryptService:37 - RSA encryption OK
+2018-01-18 14:54:14 INFO  AESencrp:22 - Start AES encryption...
+2018-01-18 14:54:14 INFO  AESencrp:37 - AES Encryption OK
+2018-01-18 14:54:14 INFO  GenerateTokenResource:66 - Json response {"Token": "QDfF+ATguCXLTC1ypjYdydLKEgZUG8Atg8IXgSbxkEuoiVDcOctZbF/HBqMTbRV3pBGN85knz7tkcgikBI5rVBkJ5ZO4fAanatHv6xkbFH9MhLWxSdPtmOHLhy4coiO4Co8zFdpXvwtJtWZ+OamHJX2vb8KZ7UmLD4dXDImhT6/+NLpnB9A1oSgQXe3pIKBNtr53uIMqLe6JTgyjYaP683C5NZNnzjPUOpbkRCMY6cYfiOgw9sGTUhFD/8nYqqmEhL7LbyrPVfG25FS/8xx1zu4QtfKbGTgtwKBwlEeWRXksE0hDInIgWBtK+XEhpfn7FGJC5LFULmiLQ7pnlnzFVzFqW+fJyWJUX5xS2unp/pG6uZVwFdH9uAKnDd5mXm5HUdUCkyoa71tdAp4Kqq7M8HUDbtipayH3N6CiTTd1OjMUPcG2zR2g18zpg+rnzzsTc04rvT1PGc31LnmZKfGA7A=="}
+18-Jan-2018 14:54:14.487 INFO [http-nio-8443-exec-4] org.restlet.engine.log.LogFilter.afterHandle 2018-01-18	14:54:14	172.21.0.1	-	172.21.0.3	8443	POST	/Token_Service_Excel/generateToken	-	202	-	344	311	https://tomcat-ogjira.example.com:8443	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)	-
+2018-01-18 14:54:45 INFO  GenerateTokenResource:18 - Start get Credential from the Token...
+2018-01-18 14:54:45 INFO  GenerateTokenResource:23 - Decrypting token to get user info
+2018-01-18 14:54:45 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 14:54:45 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 14:54:45 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 14:54:45 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 14:54:45 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 14:54:45 INFO  RSACryptService:120 - Private Key reading OK
+2018-01-18 14:54:46 INFO  RSACryptService:57 - RSA decryption OK
+2018-01-18 14:54:46 INFO  GenerateTokenResource:34 - Credentials retrieved
+18-Jan-2018 14:54:46.016 INFO [http-nio-8443-exec-1] org.restlet.engine.log.LogFilter.afterHandle 2018-01-18	14:54:46	172.21.0.6	-	172.21.0.3	8443	POST	/Token_Service_Excel/getCredential	-	202	-	344	253	https://tomcat-ogjira.example.com:8443	Java/1.8.0_151	-
+2018-01-18 14:54:48 INFO  GenerateTokenResource:18 - Start get Credential from the Token...
+2018-01-18 14:54:48 INFO  GenerateTokenResource:23 - Decrypting token to get user info
+2018-01-18 14:54:48 INFO  RSACryptService:42 - Start RSA decryption of the parameters...
+2018-01-18 14:54:48 INFO  RSACryptService:90 - Get private key from the certificate
+2018-01-18 14:54:48 INFO  RSACryptService:92 - Get parameters from the configuration
+2018-01-18 14:54:48 INFO  RSACryptService:101 - Parameters reading OK
+2018-01-18 14:54:48 DEBUG RSACryptService:103 - Search file /bitnami/tomcat/conf/Security/ogzillakeystore.jks
+2018-01-18 14:54:48 INFO  RSACryptService:120 - Private Key reading OK
+2018-01-18 14:54:48 INFO  RSACryptService:57 - RSA decryption OK
+2018-01-18 14:54:48 INFO  GenerateTokenResource:34 - Credentials retrieved
+18-Jan-2018 14:54:48.967 INFO [http-nio-8443-exec-2] org.restlet.engine.log.LogFilter.afterHandle 2018-01-18	14:54:48	172.21.0.6	-	172.21.0.3	8443	POST	/Token_Service_Excel/getCredential	-	202	-	344	87	https://tomcat-ogjira.example.com:8443	Java/1.8.0_151	-
+18-Jan-2018 15:02:36.788 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Jan-2018 15:02:36.789 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 15:02:36.858 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 15:02:36.912 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 15:02:36.964 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+18-Jan-2018 15:02:37.168 INFO [localhost-startStop-2] org.restlet.engine.connector.HttpClientHelper.stop Stopping the internal HTTP client
+18-Jan-2018 15:02:37.171 INFO [localhost-startStop-2] org.restlet.engine.connector.HttpClientHelper.stop Stopping the internal HTTP client
+18-Jan-2018 15:02:37.238 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 15:02:37.303 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 15:02:37.348 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 15:02:37.446 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 15:02:37.447 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 15:02:37.447 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 15:10:36.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.48
+18-Jan-2018 15:10:36.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 30 2017 16:26:50 UTC
+18-Jan-2018 15:10:36.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.48.0
+18-Jan-2018 15:10:36.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jan-2018 15:10:36.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.60-linuxkit-aufs
+18-Jan-2018 15:10:36.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jan-2018 15:10:36.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/bitnami/java
+18-Jan-2018 15:10:36.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+18-Jan-2018 15:10:36.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Jan-2018 15:10:36.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/bitnami/tomcat
+18-Jan-2018 15:10:36.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/bitnami/tomcat
+18-Jan-2018 15:10:36.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/bitnami/tomcat/conf/logging.properties
+18-Jan-2018 15:10:36.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jan-2018 15:10:36.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+18-Jan-2018 15:10:36.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+18-Jan-2018 15:10:36.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Jan-2018 15:10:36.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jan-2018 15:10:36.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jan-2018 15:10:36.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Jan-2018 15:10:36.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/bitnami/tomcat
+18-Jan-2018 15:10:36.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/bitnami/tomcat
+18-Jan-2018 15:10:36.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/bitnami/tomcat/temp
+18-Jan-2018 15:10:36.113 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+18-Jan-2018 15:10:37.054 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 15:10:37.123 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 15:10:37.138 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 15:10:38.225 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 15:10:38.227 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 15:10:38.238 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 15:10:38.239 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 4646 ms
+18-Jan-2018 15:10:38.298 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Jan-2018 15:10:38.299 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.48
+18-Jan-2018 15:10:38.382 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/oslc4bugzilla.war
+18-Jan-2018 15:10:59.870 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+bugzilla_uri: http://bzweb:80
+admin: admin@example.com
+log4j:WARN No appenders could be found for logger (com.hp.hpl.jena.util.FileManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+18-Jan-2018 15:11:14.613 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/oslc4bugzilla.war has finished in 36,228 ms
+18-Jan-2018 15:11:14.634 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/Token_Service_Excel.war
+18-Jan-2018 15:11:17.571 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Jan-2018 15:11:17.595 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/Token_Service_Excel.war has finished in 2,961 ms
+18-Jan-2018 15:11:17.609 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/docs
+18-Jan-2018 15:11:17.722 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/docs has finished in 114 ms
+18-Jan-2018 15:11:17.723 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/examples
+18-Jan-2018 15:11:18.613 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/examples has finished in 889 ms
+18-Jan-2018 15:11:18.615 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/host-manager
+18-Jan-2018 15:11:18.763 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/host-manager has finished in 149 ms
+18-Jan-2018 15:11:18.771 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/manager
+18-Jan-2018 15:11:18.904 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/manager has finished in 133 ms
+18-Jan-2018 15:11:18.905 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/ROOT
+18-Jan-2018 15:11:18.985 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/ROOT has finished in 80 ms
+18-Jan-2018 15:11:18.999 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 15:11:19.017 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 15:11:19.022 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 15:11:19.032 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 40793 ms
+18-Jan-2018 15:15:54.430 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Jan-2018 15:15:54.431 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 15:15:54.491 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 15:15:54.494 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 15:15:54.496 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+18-Jan-2018 15:15:54.714 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 15:15:54.715 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 15:15:54.719 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 15:15:54.723 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 15:15:54.727 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 15:15:54.747 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 15:17:39.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.48
+18-Jan-2018 15:17:39.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 30 2017 16:26:50 UTC
+18-Jan-2018 15:17:39.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.48.0
+18-Jan-2018 15:17:39.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jan-2018 15:17:39.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.60-linuxkit-aufs
+18-Jan-2018 15:17:39.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jan-2018 15:17:39.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/bitnami/java
+18-Jan-2018 15:17:39.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-b12
+18-Jan-2018 15:17:39.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Jan-2018 15:17:39.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/bitnami/tomcat
+18-Jan-2018 15:17:39.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/bitnami/tomcat
+18-Jan-2018 15:17:39.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/bitnami/tomcat/conf/logging.properties
+18-Jan-2018 15:17:39.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jan-2018 15:17:39.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+18-Jan-2018 15:17:39.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+18-Jan-2018 15:17:39.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Jan-2018 15:17:39.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jan-2018 15:17:39.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jan-2018 15:17:39.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Jan-2018 15:17:39.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/bitnami/tomcat
+18-Jan-2018 15:17:39.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/bitnami/tomcat
+18-Jan-2018 15:17:39.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/bitnami/tomcat/temp
+18-Jan-2018 15:17:39.230 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+18-Jan-2018 15:17:39.742 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 15:17:39.804 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 15:17:39.813 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 15:17:40.601 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 15:17:40.603 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 15:17:40.605 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jan-2018 15:17:40.614 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2551 ms
+18-Jan-2018 15:17:40.746 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Jan-2018 15:17:40.748 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.48
+18-Jan-2018 15:17:40.845 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/oslc4bugzilla.war
+18-Jan-2018 15:17:54.642 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+bugzilla_uri: http://bzweb:80
+admin: admin@example.com
+log4j:WARN No appenders could be found for logger (com.hp.hpl.jena.util.FileManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+18-Jan-2018 15:18:01.551 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/oslc4bugzilla.war has finished in 20,702 ms
+18-Jan-2018 15:18:01.571 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /bitnami/tomcat/data/Token_Service_Excel.war
+18-Jan-2018 15:18:04.386 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Jan-2018 15:18:04.404 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /bitnami/tomcat/data/Token_Service_Excel.war has finished in 2,833 ms
+18-Jan-2018 15:18:04.407 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/docs
+18-Jan-2018 15:18:04.489 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/docs has finished in 82 ms
+18-Jan-2018 15:18:04.490 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/examples
+18-Jan-2018 15:18:05.331 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/examples has finished in 841 ms
+18-Jan-2018 15:18:05.332 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/host-manager
+18-Jan-2018 15:18:05.439 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/host-manager has finished in 107 ms
+18-Jan-2018 15:18:05.440 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/manager
+18-Jan-2018 15:18:05.547 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/manager has finished in 106 ms
+18-Jan-2018 15:18:05.547 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /bitnami/tomcat/data/ROOT
+18-Jan-2018 15:18:05.623 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /bitnami/tomcat/data/ROOT has finished in 76 ms
+18-Jan-2018 15:18:05.638 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 15:18:05.659 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 15:18:05.669 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 15:18:05.676 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 25061 ms
+18-Jan-2018 15:20:29.955 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Jan-2018 15:20:29.956 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 15:20:30.012 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 15:20:30.070 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 15:20:30.122 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+18-Jan-2018 15:20:30.359 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 15:20:30.368 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 15:20:30.377 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Jan-2018 15:20:30.386 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Jan-2018 15:20:30.391 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8443"]
+18-Jan-2018 15:20:30.393 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

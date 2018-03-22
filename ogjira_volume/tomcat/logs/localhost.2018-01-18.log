@@ -1,0 +1,54 @@
+18-Jan-2018 09:02:03.756 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+18-Jan-2018 09:02:03.756 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+18-Jan-2018 09:02:41.082 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+18-Jan-2018 09:02:41.084 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+18-Jan-2018 09:03:35.321 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+18-Jan-2018 09:03:35.322 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+18-Jan-2018 09:07:10.538 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+18-Jan-2018 09:07:10.539 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+18-Jan-2018 09:19:27.497 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+18-Jan-2018 09:19:27.497 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+18-Jan-2018 11:32:18.115 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+18-Jan-2018 11:32:18.115 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+18-Jan-2018 11:33:27.372 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+18-Jan-2018 11:33:27.372 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+18-Jan-2018 11:43:29.988 INFO [http-nio-8443-exec-3] org.apache.catalina.core.ApplicationContext.log RestletServlet: [Restlet] ServerServlet: component class is null
+18-Jan-2018 11:43:30.365 INFO [http-nio-8443-exec-3] org.apache.catalina.core.ApplicationContext.log RestletServlet: [Restlet] Attaching application: com.fincons.token.restlet.TokenServiceRestletApplication@78a946a to URI: /Token_Service_Excel
+18-Jan-2018 11:46:43.968 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+18-Jan-2018 11:46:43.968 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+18-Jan-2018 11:56:54.329 INFO [http-nio-8443-exec-4] org.apache.catalina.core.ApplicationContext.log RestletServlet: [Restlet] ServerServlet: component class is null
+18-Jan-2018 11:56:54.943 INFO [http-nio-8443-exec-4] org.apache.catalina.core.ApplicationContext.log RestletServlet: [Restlet] Attaching application: com.fincons.token.restlet.TokenServiceRestletApplication@4e4d47f4 to URI: /Token_Service_Excel
+18-Jan-2018 13:36:27.463 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+18-Jan-2018 13:36:27.463 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+18-Jan-2018 13:57:34.578 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+18-Jan-2018 13:57:34.578 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+18-Jan-2018 14:02:12.646 INFO [http-nio-8443-exec-5] org.apache.catalina.core.ApplicationContext.log RestletServlet: [Restlet] ServerServlet: component class is null
+18-Jan-2018 14:02:13.430 INFO [http-nio-8443-exec-5] org.apache.catalina.core.ApplicationContext.log RestletServlet: [Restlet] Attaching application: com.fincons.token.restlet.TokenServiceRestletApplication@5182f175 to URI: /Token_Service_Excel
+18-Jan-2018 14:12:56.998 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+18-Jan-2018 14:12:56.998 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+18-Jan-2018 14:13:57.228 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+18-Jan-2018 14:13:57.228 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+18-Jan-2018 14:18:35.856 INFO [http-nio-8443-exec-4] org.apache.catalina.core.ApplicationContext.log RestletServlet: [Restlet] ServerServlet: component class is null
+18-Jan-2018 14:18:36.315 INFO [http-nio-8443-exec-4] org.apache.catalina.core.ApplicationContext.log RestletServlet: [Restlet] Attaching application: com.fincons.token.restlet.TokenServiceRestletApplication@5787f429 to URI: /Token_Service_Excel
+18-Jan-2018 14:39:33.170 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+18-Jan-2018 14:39:33.171 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+18-Jan-2018 14:40:44.014 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+18-Jan-2018 14:40:44.015 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+18-Jan-2018 14:45:48.691 INFO [http-nio-8443-exec-4] org.apache.catalina.core.ApplicationContext.log RestletServlet: [Restlet] ServerServlet: component class is null
+18-Jan-2018 14:45:49.058 INFO [http-nio-8443-exec-4] org.apache.catalina.core.ApplicationContext.log RestletServlet: [Restlet] Attaching application: com.fincons.token.restlet.TokenServiceRestletApplication@40758f89 to URI: /Token_Service_Excel
+18-Jan-2018 14:49:51.670 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+18-Jan-2018 14:49:51.670 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+18-Jan-2018 14:50:58.118 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+18-Jan-2018 14:50:58.118 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+18-Jan-2018 14:54:13.518 INFO [http-nio-8443-exec-4] org.apache.catalina.core.ApplicationContext.log RestletServlet: [Restlet] ServerServlet: component class is null
+18-Jan-2018 14:54:14.123 INFO [http-nio-8443-exec-4] org.apache.catalina.core.ApplicationContext.log RestletServlet: [Restlet] Attaching application: com.fincons.token.restlet.TokenServiceRestletApplication@4b5a5be7 to URI: /Token_Service_Excel
+18-Jan-2018 15:02:37.070 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+18-Jan-2018 15:02:37.071 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+18-Jan-2018 15:11:18.598 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+18-Jan-2018 15:11:18.598 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+18-Jan-2018 15:15:54.596 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+18-Jan-2018 15:15:54.597 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+18-Jan-2018 15:18:05.300 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+18-Jan-2018 15:18:05.301 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+18-Jan-2018 15:20:30.206 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+18-Jan-2018 15:20:30.206 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
